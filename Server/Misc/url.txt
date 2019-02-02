@@ -1,0 +1,21 @@
++-------------------+---------------------+
+|        Part       |       Data          |
++-------------------+---------------------+
+|  Scheme           | https               |
+|  User             | bob                 |
+|  Password         | bobby               |
+|  Host             | www.lunatech.com    |
+|  Port             | 8080                |
+|  Path             | /file;p=1           |
+|  Path parameter   | p=1                 |
+|  Query            | q=2                 |
+|  Fragment         | third               |
++-------------------+---------------------+
+
+https://bob:bobby@www.lunatech.com:8080/file;p=1?q=2#third
+\___/   \_/ \___/ \______________/ \__/\_______/ \_/ \___/
+  |      |    |          |          |      | \_/  |    |
+Scheme User Password    Host       Port  Path |   | Fragment
+        \_____________________________/       | Query
+                       |               Path parameter
+                   Authority

@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "/"
+		},
+		{
+			"path": "/Users/jd"
+		},
+		{
+			"path": "/Users/jd/Documents"
+		},
+		{
+			"path": "/Users/jd/Desktop"
+		},
+		{
+			"path": "/Users/jd/Downloads"
+		},
+		{
+			"path": "/Users/jd/GIT",
+			"name": "GIT Repos"
+		},
+		{
+			"path": "/Users/jd/GIT/General"
+		},
+		{
+			"path": "/Users/jd/Library/Mobile Documents/com~apple~CloudDocs/MAGIQ"
+		},
+		{
+			"path": "/Users/jd/Library/Mobile Documents/com~apple~CloudDocs/MAGIQ/MAGIQ General"
+		}
+	]
+}

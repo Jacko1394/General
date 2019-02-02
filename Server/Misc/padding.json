@@ -1,0 +1,5 @@
+{
+	"xaml": ["left", "top", "right", "bottom"],
+	"xamlUiLayerOrdering": ["<1atBack>", "<2onTop>"],
+	"css": ["top", "right", "bottom", "left"]
+}

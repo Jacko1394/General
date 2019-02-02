@@ -1,0 +1,794 @@
+/bin/bash /Users/jd/GIT/svn/magiq_mobile/documents/scripts/master.sh
+Done.
+bba52925d2ca6e92d0d35bd872629b13ba08419729775b44c77e53cb177e935b
+Already up to date.
+On branch develop
+Your branch is up to date with 'origin/develop'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   Program.cs
+	modified:   Startup.cs
+	modified:   appsettings.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+updating: bin/Release/ (stored 0%)
+updating: bin/Release/netcoreapp2.1/ (stored 0%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Authentication.Tickets.pdb (deflated 47%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Api.Web.pdb (deflated 42%)
+updating: bin/Release/netcoreapp2.1/App_Data/ (stored 0%)
+updating: bin/Release/netcoreapp2.1/App_Data/logs/ (stored 0%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Api.Web.runtimeconfig.dev.json (deflated 29%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Commands.dll (deflated 61%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Api.Web.runtimeconfig.json (deflated 31%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.EntityFrameworkCore.dll (deflated 71%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Authentication.Abstractions.pdb (deflated 44%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Authentication.Developer.dll (deflated 62%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Commands.pdb (deflated 36%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Authentication.Tickets.dll (deflated 60%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Api.Web.dll (deflated 61%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Authentication.Developer.pdb (deflated 40%)
+updating: bin/Release/netcoreapp2.1/appsettings.json (deflated 62%)
+updating: bin/Release/netcoreapp2.1/NLog.config (deflated 43%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.EntityFrameworkCore.pdb (deflated 62%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Authentication.Abstractions.dll (deflated 65%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Abstractions.dll (deflated 62%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.Projections.dll (deflated 63%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Authentication.pdb (deflated 39%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Api.Web.deps.jsonSencha Cmd v6.6.0.13
+ (deflated 85%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.OData.dll (deflated 61%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Authentication.dll (deflated 58%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Abstractions.pdb (deflated 31%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.Projections.pdb (deflated 61%)
+updating: bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.OData.pdb (deflated 54%)
+Microsoft (R) Build Engine version 15.7.179.6572 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/22/2018 21:15:55.
+[INF] Processing Build Descriptor : default (production environment)
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.73
+Microsoft (R) Build Engine version 15.7.179.6572 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Magiq.Documents.AspNetCore.Abstractions -> /Users/jd/GIT/DocumentsApi/src/Magiq.Documents.AspNetCore.Abstractions/bin/Release/netstandard2.0/Magiq.Documents.AspNetCore.Abstractions.dll
+  Magiq.Documents.Projections -> /Users/jd/GIT/DocumentsApi/src/Magiq.Documents.Projections/bin/Release/netstandard2.0/Magiq.Documents.Projections.dll
+  Magiq.Documents.AspNetCore.Authentication.Abstractions -> /Users/jd/GIT/DocumentsApi/src/Magiq.Documents.AspNetCore.Authentication.Abstractions/bin/Release/netstandard2.0/Magiq.Documents.AspNetCore.Authentication.Abstractions.dll
+  Magiq.Documents.AspNetCore.Commands -> /Users/jd/GIT/DocumentsApi/src/Magiq.Documents.AspNetCore.Commands/bin/Release/netstandard2.0/Magiq.Documents.AspNetCore.Commands.dll
+  Magiq.Documents.AspNetCore.Authentication.Tickets -> /Users/jd/GIT/DocumentsApi/src/Magiq.Documents.AspNetCore.Authentication.Tickets/bin/Release/netstandard2.0/Magiq.Documents.AspNetCore.Authentication.Tickets.dll
+  Magiq.Documents.EntityFrameworkCore -> /Users/jd/GIT/DocumentsApi/src/Magiq.Documents.EntityFrameworkCore/bin/Release/netcoreapp2.0/Magiq.Documents.EntityFrameworkCore.dll
+  Magiq.Documents.AspNetCore.Authentication -> /Users/jd/GIT/DocumentsApi/src/Magiq.Documents.AspNetCore.Authentication/bin/Release/netstandard2.0/Magiq.Documents.AspNetCore.Authentication.dll
+  Magiq.Documents.AspNetCore.Authentication.Developer -> /Users/jd/GIT/DocumentsApi/src/Magiq.Documents.AspNetCore.Authentication.Developer/bin/Release/netstandard2.0/Magiq.Documents.AspNetCore.Authentication.Developer.dll
+  Magiq.Documents.AspNetCore.OData -> /Users/jd/GIT/DocumentsApi/src/Magiq.Documents.AspNetCore.OData/bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.OData.dll
+[INF] Loading compiler context
+[INF] Loading app json manifest...
+  Magiq.Documents.AspNetCore.Api.Web -> /Users/jd/GIT/DocumentsApi/src/Magiq.Documents.AspNetCore.Api.Web/bin/Release/netcoreapp2.1/Magiq.Documents.AspNetCore.Api.Web.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:07.00
+Hosting environment: development
+Content root path: /Users/jd/GIT/DocumentsApi/src/Magiq.Documents.AspNetCore.Api.Web/bin/Release/netcoreapp2.1
+Now listening on: http://192.168.0.2:5000
+Application started. Press Ctrl+C to shut down.
+[INF] Processing data with CmdJavascriptCompressor
+[INF] JavaScript input level is NEXT and output level is ES5
+[INF] Writing concatenated output to file /Users/jd/GIT/svn/magiq_mobile/documents/ext/builds/production/Documents/app.js
+[INF] merging 375 input resources into /Users/jd/GIT/svn/magiq_mobile/documents/ext/builds/production/Documents/resources
+[INF] merged 0 resources into /Users/jd/GIT/svn/magiq_mobile/documents/ext/builds/production/Documents/resources
+[INF] merging 13 input resources into /Users/jd/GIT/svn/magiq_mobile/documents/ext/builds/production/Documents
+[INF] merged 0 resources into /Users/jd/GIT/svn/magiq_mobile/documents/ext/builds/production/Documents
+[INF] Writing content to ext/builds/temp/production/Documents/slicer-temp/bootstrap.json
+[INF] Writing content to ext/builds/temp/production/Documents/slicer-temp/bootstrap.js
+[INF] writing sass content to ext/builds/temp/production/Documents/sass/Documents-all.scss.tmp
+[INF] appending sass content to ext/builds/temp/production/Documents/sass/Documents-all.scss.tmp
+[INF] appending sass content to ext/builds/temp/production/Documents/sass/Documents-all.scss.tmp
+[INF] Writing content to ext/builds/production/Documents/app.json
+[LOG] Fashion build starting for /Users/jd/GIT/svn/magiq_mobile/documents/ext/builds/temp/production/Documents/sass/Documents-all.scss
+[WRN] @theme-background-image: Theme image not found: images/tree/loading.gif
+[WRN] @theme-background-image: Theme image not found: images/tree/loading.gif
+[WRN] @theme-background-image: Theme image not found: images/tree/loading.gif
+[LOG] Fashion build complete for /Users/jd/GIT/svn/magiq_mobile/documents/ext/builds/temp/production/Documents/sass/Documents-all.scss
+[LOG] Fashion build completed in 2.065 sec.
+[WRN] C1005: Closure Compiler Warning (Unnecessary escape: '\s' is equivalent to just 's') -- unknown-uri:4791:102
+[INF] Copying page resources to /Users/jd/GIT/svn/magiq_mobile/documents/ext/builds/production/Documents
+[INF] Applying version stamps to json resource entries
+[INF] Writing content to ext/builds/production/Documents/app.json
+[INF] Writing content to ext/builds/production/Documents/microloader.js
+[INF] Appending content to ext/builds/production/Documents/microloader.js
+[INF] JavaScript input level is NEXT and output level is ES5
+[INF] Building output markup to ext/builds/production/Documents/index.html
+[INF] Writing content to ext/builds/production/Documents/index.html
+[INF] generating cache manifest to ext/builds/production/Documents/cache.appcache
+
+updating: ext/builds/production/Documents/ (stored 0%)
+updating: ext/builds/production/Documents/index.html (deflated 71%)
+updating: ext/builds/production/Documents/cache.appcache (deflated 3%)
+updating: ext/builds/production/Documents/app.json (deflated 75%)
+updating: ext/builds/production/Documents/resources/ (stored 0%)
+updating: ext/builds/production/Documents/resources/Documents-all_2.css (deflated 81%)
+updating: ext/builds/production/Documents/resources/Documents-all.css (deflated 37%)
+updating: ext/builds/production/Documents/resources/css-vars.js (deflated 75%)
+updating: ext/builds/production/Documents/resources/Documents-all_1.css (deflated 87%)
+updating: ext/builds/production/Documents/resources/images/ (stored 0%)
+updating: ext/builds/production/Documents/resources/images/tip_bottom.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/togglebg.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/select_mask.png (deflated 3%)
+updating: ext/builds/production/Documents/resources/images/tree/ (stored 0%)
+updating: ext/builds/production/Documents/resources/images/tree/loading.gif (deflated 16%)
+updating: ext/builds/production/Documents/resources/images/check.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/disclosure.png (deflated 8%)
+updating: ext/builds/production/Documents/resources/images/tip2_right.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/trackmask_outer.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/tip_right.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/tip_left.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/tip2_left.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/togglethumbmask.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/ (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/empty2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/settings6.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/chat1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/info.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/photo_black2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/user_remove2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/add.png (deflated 6%)
+updating: ext/builds/production/Documents/resources/images/pictos/piechart.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/lock_open.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/rss.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/upload2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/infinite.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/headphones.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/speedometer2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/team.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/doc_black.png (deflated 15%)
+updating: ext/builds/production/Documents/resources/images/pictos/wifi.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/music1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/resize_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/tag_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/spaces2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/more2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/user_remote1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/settings7.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/cube.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/settings5.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/empty1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/stop.png (deflated 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/sign_leftright.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/user_list2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/chat2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/photo_black1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/arrow_right.png (deflated 21%)
+updating: ext/builds/production/Documents/resources/images/pictos/delete1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/download_screen.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/monitor4.png (deflated 2%)
+updating: ext/builds/production/Documents/resources/images/pictos/locate4.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/loop2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/speedometer1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/flag.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/podcast.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/music2.png (deflated 3%)
+updating: ext/builds/production/Documents/resources/images/pictos/pictos-web.svg (deflated 60%)
+updating: ext/builds/production/Documents/resources/images/pictos/cloud_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/chat3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/arrow_up.png (deflated 24%)
+updating: ext/builds/production/Documents/resources/images/pictos/spaces1.png (deflated 4%)
+updating: ext/builds/production/Documents/resources/images/pictos/doc_black_landscape.png (deflated 7%)
+updating: ext/builds/production/Documents/resources/images/pictos/settings4.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/tv.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/bolt.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/server.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/code3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/volume.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/servers.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/locate1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/time.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/expand.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/monitor1.png (deflated 3%)
+updating: ext/builds/production/Documents/resources/images/pictos/folder_black.png (deflated 4%)
+updating: ext/builds/production/Documents/resources/images/pictos/download.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/delete_black2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/search2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/compose.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/lab.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/outbox.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/mail.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/play_black2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/replytoall.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/minus2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/chat_black1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/warning_dotted.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/check_dotted.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/docs1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/code2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/settings.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/settings1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/look.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/screens.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/settings3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/forward_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/doc_delete.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/chat4.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/info_plain.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/at.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/locate2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/calendar_add.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/monitor2.png (deflated 6%)
+updating: ext/builds/production/Documents/resources/images/pictos/delete_black1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/json.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/arrow_left.png (deflated 22%)
+updating: ext/builds/production/Documents/resources/images/pictos/search1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/play_black1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/monitor3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/help_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/locate3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/doc_up.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/minus1.png (deflated 11%)
+updating: ext/builds/production/Documents/resources/images/pictos/chat_black2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/doc.png (deflated 3%)
+updating: ext/builds/production/Documents/resources/images/pictos/docs2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/code1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/action.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/wifi3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/inbox3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/event_complete.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/sign_uturn.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/blank.png (deflated 17%)
+updating: ext/builds/production/Documents/resources/images/pictos/briefcase2.png (deflated 2%)
+updating: ext/builds/production/Documents/resources/images/pictos/address_book.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/compass3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/download1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/equalizer2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/move.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/infinite2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/globe1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/tabbed_book.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/compass2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/photos4.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/inbox2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/wifi2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/link_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/sign_backforth.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/tag.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/sign_leftright2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/cloud_download.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/attachment2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/briefcase1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/folder_delete.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/equalizer1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/download2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/doc_list.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/rss2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/folder_lock.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/globe2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/compass1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/attachment3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/inbox1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/user_send.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/eject.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/circle4.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/chart3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/phone_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/home.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/volume_up.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/circle.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/user.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/user_add.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/reply.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/shield1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/tweak.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/photos2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/folder_open2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/chart2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/note1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/wifi4.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/video_black1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/note3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/circle3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/flickr2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/heart_circle.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/shield2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/bulb.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/list.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/doc_down.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/photos1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/circle2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/chart1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/volume_mute.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/note2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/video_black2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/search.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/loop_circle.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/heart.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/font.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/doc_new.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/mail3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/nuclear.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/shop1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/quote2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/refresh5.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/print.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/up2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/print2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/layout.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/settings_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/check1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/user3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/compose2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/compose3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/fforward.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/bullseye2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/card2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/folder.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/trash_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/find.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/rss_black1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/mail2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/mouse.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/battery_low.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/power_socket.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/info_plain2.png (deflated 1%)
+updating: ext/builds/production/Documents/resources/images/pictos/add_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/atom.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/backspace.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/shop2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/quote1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/up1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/warning_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/compose1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/check2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/help.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/bullseye1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/card1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/battery_full.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/rss_black2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/organize.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/mail1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/window.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/shuffle.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/pause.png (deflated 38%)
+updating: ext/builds/production/Documents/resources/images/pictos/rewind.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/cloud_black_upload2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/cloud.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/phone_ring2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/mail5.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/note_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/folder_black_open.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/refresh3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/compose_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/trash2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/sign_switch.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/data.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/tree.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/calendar.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/favorites_circle.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/check_black2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/refresh2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/info2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/mail4.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/docs_black1.png (deflated 2%)
+updating: ext/builds/production/Documents/resources/images/pictos/tags.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/video.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/lock_closed.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/right2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/add1.png (deflated 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/cloud_black_upload1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/share.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/sign_split.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/phone_ring1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/rss_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/doc2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/settings10.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/settings11.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/sync.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/refresh1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/check_black1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/pictos-web.ttf (deflated 31%)
+updating: ext/builds/production/Documents/resources/images/pictos/forbidden.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/docs_black2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/pictos-web.woff (deflated 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/search_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/delete.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/calendar2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/volume_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/user_list.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/hot.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/twitter2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/link2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/folder_add.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/doc_send.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/bug.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/locate.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/doc_compose1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/up_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/doc_drawer.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/battery_power.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/resize.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/home2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/favorites1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/star.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/trash.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/twitter1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/user_fave.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/more.png (deflated 4%)
+updating: ext/builds/production/Documents/resources/images/pictos/globe_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/bolt_side.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/attachment.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/link1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/bookmark_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/folder_delete2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/doc_compose2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/attachment_black.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/favorites.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/loop.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/settings9.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/brightness1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/bookmark1.png (deflated 10%)
+updating: ext/builds/production/Documents/resources/images/pictos/nodes2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/team1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/quote_black3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/phone1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/magic.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/stop1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/clash.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/chat.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/photo2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/play1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/photo3.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/arrow_down.png (deflated 22%)
+updating: ext/builds/production/Documents/resources/images/pictos/contract.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/broadcast.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/minus_black1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/quote_black2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/speedometer_black1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/back.png (deflated 1%)
+updating: ext/builds/production/Documents/resources/images/pictos/settings8.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/right.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/brightness2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/bookmark2.png (deflated 7%)
+updating: ext/builds/production/Documents/resources/images/pictos/bookmarks.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/sign_cross.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/nodes1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/phone2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/stop2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/pictos-web.eot (deflated 32%)
+updating: ext/builds/production/Documents/resources/images/pictos/refresh.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/volume_down.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/photo1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/cloud_bolt.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/time_repeat.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/maps.png (deflated 4%)
+updating: ext/builds/production/Documents/resources/images/pictos/play2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/user_business.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/power_on.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/quote_black1.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/minus_black2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/speedometer_black2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pictos/mic.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/loading.gif (deflated 18%)
+updating: ext/builds/production/Documents/resources/images/togglemask.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/clear_icon.png (deflated 2%)
+updating: ext/builds/production/Documents/resources/images/tip_top.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/togglethumb.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/togglethumbbg.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/dotgrid.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/pullarrow.png (stored 0%)
+updating: ext/builds/production/Documents/resources/images/disclosure2.png (stored 0%)
+updating: ext/builds/production/Documents/resources/font-ext/ (stored 0%)
+updating: ext/builds/production/Documents/resources/font-ext/fonts/ (stored 0%)
+updating: ext/builds/production/Documents/resources/font-ext/fonts/ExtJS.svg (deflated 70%)
+updating: ext/builds/production/Documents/resources/font-ext/fonts/ExtJS.woff (deflated 57%)
+updating: ext/builds/production/Documents/resources/font-ext/fonts/ExtJS.ttf (deflated 57%)
+updating: ext/builds/production/Documents/resources/font-ext/fonts/ExtJS.eot (deflated 57%)
+updating: ext/builds/production/Documents/resources/Readme.md (deflated 16%)
+updating: ext/builds/production/Documents/resources/fonts/ (stored 0%)
+updating: ext/builds/production/Documents/resources/fonts/MaterialIcons-Regular.ttf (deflated 53%)
+updating: ext/builds/production/Documents/resources/fonts/roboto/ (stored 0%)
+updating: ext/builds/production/Documents/resources/fonts/roboto/Roboto-Medium.ttf (deflated 46%)
+updating: ext/builds/production/Documents/resources/fonts/roboto/Roboto-Light.ttf (deflated 46%)
+updating: ext/builds/production/Documents/resources/fonts/roboto/Roboto-Regular.ttf (deflated 47%)
+updating: ext/builds/production/Documents/resources/fonts/roboto/Roboto-Italic.ttf (deflated 44%)
+updating: ext/builds/production/Documents/resources/fonts/roboto/Roboto-Bold.ttf (deflated 46%)
+updating: ext/builds/production/Documents/resources/font-awesome/ (stored 0%)
+updating: ext/builds/production/Documents/resources/font-awesome/fonts/ (stored 0%)
+updating: ext/builds/production/Documents/resources/font-awesome/fonts/fontawesome-webfont.svg (deflated 69%)
+updating: ext/builds/production/Documents/resources/font-awesome/fonts/FontAwesome.otf (deflated 18%)
+updating: ext/builds/production/Documents/resources/font-awesome/fonts/fontawesome-webfont.woff2 (deflated 0%)
+updating: ext/builds/production/Documents/resources/font-awesome/fonts/fontawesome-webfont.ttf (deflated 41%)
+updating: ext/builds/production/Documents/resources/font-awesome/fonts/fontawesome-webfont.woff (deflated 0%)
+updating: ext/builds/production/Documents/resources/font-awesome/fonts/fontawesome-webfont.eot (deflated 41%)
+updating: ext/builds/production/Documents/app.jsonp (deflated 74%)
+updating: ext/builds/production/Documents/app.js (deflated 72%)
+updating: ext/builds/production/Documents/.DS_Store (deflated 89%)
+updating: ext/builds/production/Documents/packages/ (stored 0%)
+updating: ext/builds/production/Documents/packages/.DS_Store (deflated 83%)
+updating: ext/builds/production/Documents/packages/local/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/.DS_Store (deflated 86%)
+updating: ext/builds/production/Documents/packages/local/Magiq/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/overrides/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/overrides/Readme.md (deflated 17%)
+updating: ext/builds/production/Documents/packages/local/Magiq/.DS_Store (deflated 84%)
+updating: ext/builds/production/Documents/packages/local/Magiq/licenses/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/licenses/Readme.md (deflated 10%)
+updating: ext/builds/production/Documents/packages/local/Magiq/build.xml (deflated 69%)
+updating: ext/builds/production/Documents/packages/local/Magiq/521492.pdf (deflated 3%)
+updating: ext/builds/production/Documents/packages/local/Magiq/resources/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/resources/Readme.md (deflated 16%)
+updating: ext/builds/production/Documents/packages/local/Magiq/.jshintrc (deflated 42%)
+updating: ext/builds/production/Documents/packages/local/Magiq/Readme.md (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/package.json (deflated 74%)
+updating: ext/builds/production/Documents/packages/local/Magiq/examples/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/examples/Readme.md (deflated 61%)
+updating: ext/builds/production/Documents/packages/local/Magiq/sass/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/sass/etc/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/sass/etc/all.scss (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/sass/etc/Readme.md (deflated 19%)
+updating: ext/builds/production/Documents/packages/local/Magiq/sass/var/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/sass/var/Readme.md (deflated 13%)
+updating: ext/builds/production/Documents/packages/local/Magiq/sass/Readme.md (deflated 30%)
+updating: ext/builds/production/Documents/packages/local/Magiq/sass/config.rb (deflated 2%)
+updating: ext/builds/production/Documents/packages/local/Magiq/sass/src/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/sass/src/Readme.md (deflated 28%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/reader/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/reader/Settings.js (deflated 57%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/Mobile.js (deflated 40%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/.DS_Store (deflated 81%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/util/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/util/Registry.js (deflated 67%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/util/Core.js (deflated 58%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/util/Bridge.js (deflated 65%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/util/bridge/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/util/bridge/Profile.js (deflated 33%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/util/bridge/Device.js (deflated 42%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/util/bridge/Intent.js (deflated 70%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/util/bridge/LocalStorage.js (deflated 63%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/util/bridge/Communicator.js (deflated 75%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/util/ETL.js (deflated 51%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/util/Environment.js (deflated 68%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/util/DataFormats.js (deflated 72%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/bridge/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/bridge/Profile.js (deflated 57%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/bridge/Device.js (deflated 52%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/bridge/Bridge.js (deflated 49%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/field/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/field/Time.js (deflated 68%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/field/DateTime.js (deflated 62%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/Readme.md (deflated 17%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/model/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/model/Setting.js (deflated 62%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/model/ValueText.js (deflated 44%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/model/Person.js (deflated 30%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/model/Status.js (deflated 62%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/MainController.js (deflated 75%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/standardtitlebar/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/standardtitlebar/StandardTitlebarModel.js (deflated 47%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/standardtitlebar/StandardTitlebar.js (deflated 74%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/standardtitlebar/StandardTitlebarController.js (deflated 70%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/.DS_Store (deflated 86%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/scss/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/scss/_variables.scss (deflated 51%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/scss/_typography.scss (deflated 67%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/scss/_color-definitions.scss (deflated 22%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/scss/_mixins.scss (deflated 84%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/Colours.js (deflated 29%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/Colours.scss (deflated 56%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/edit/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/edit/Edit.js (deflated 17%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/edit/Edit.scss (deflated 62%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/phone/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/preview/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/preview/_variables.scss (deflated 51%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/preview/_typography.scss (deflated 67%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/preview/Preview.scss (deflated 70%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/preview/PreviewController.js (deflated 49%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/preview/Preview.js (deflated 67%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/preview/Readme.md (deflated 56%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/preview/_color-definitions.scss (deflated 22%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/widgets/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/widgets/Sidebar.js (deflated 49%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/widgets/Menu.js (deflated 62%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/.DS_Store (deflated 86%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/mdc-theme/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/mdc-theme/mdc-theme.scss (deflated 53%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/mdc-theme/_functions.scss (deflated 67%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/mdc-theme/_variables.scss (deflated 80%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/mdc-theme/_color-palette.scss (deflated 75%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/mdc-theme/README.md (deflated 70%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/mdc-theme/package.json (deflated 43%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/mdc-theme/_mixins.scss (deflated 66%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/mdc-theme/_constants.scss (deflated 49%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/mdc-typography/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/mdc-typography/_variables.scss (deflated 81%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/mdc-typography/mdc-typography.scss (deflated 47%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/mdc-typography/_mixins.scss (deflated 54%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/Recordlist.scss (deflated 48%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/view/recordlist/Recordlist.js (deflated 39%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/modern/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/modern/.DS_Store (deflated 84%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/modern/view/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/modern/view/.DS_Store (deflated 89%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/modern/view/Main.js (deflated 28%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/modern/view/detail/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/modern/view/detail/DetailController.js (deflated 32%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/modern/view/detail/DetailModel.js (deflated 45%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/modern/view/detail/Detail.js (deflated 45%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/data/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/store/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/store/Settings.js (deflated 59%)
+updating: ext/builds/production/Documents/packages/local/Magiq/src/store/Statuses.js (deflated 36%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/overrides/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/overrides/Readme.md (deflated 19%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/overrides/init.js (deflated 33%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/.DS_Store (deflated 93%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/licenses/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/licenses/Readme.md (deflated 15%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/build.xml (deflated 69%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/resources/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/resources/Readme.md (deflated 16%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/Readme.md (stored 0%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/package.json (deflated 74%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/examples/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/examples/Readme.md (deflated 61%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/sass/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/sass/etc/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/sass/etc/all.scss (stored 0%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/sass/etc/Readme.md (deflated 28%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/sass/var/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/sass/var/Component.scss (deflated 79%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/sass/var/Readme.md (deflated 18%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/sass/Readme.md (deflated 45%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/sass/config.rb (deflated 2%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/sass/src/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/sass/src/Readme.md (deflated 30%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/src/ (stored 0%)
+updating: ext/builds/production/Documents/packages/local/theme-magiq-mobile/src/Readme.md (deflated 20%)
+updating: ext/builds/production/Documents/resources/fonts/Roboto-Light.ttf (deflated 47%)
+updating: ext/builds/production/Documents/resources/fonts/Roboto-Regular.ttf (deflated 46%)
+updating: ext/builds/production/Documents/resources/favicon.ico (deflated 89%)
+Done.
+warn: Microsoft.EntityFrameworkCore.Query[10103]
+      Query: '(from Player <generated>_1 in [x] select [<generated>_1]).FirstOrDefault()' uses First/FirstOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+warn: Microsoft.EntityFrameworkCore.Query[10103]
+      Query: '(from Player <generated>_1 in [x] select [<generated>_1].Playerid).FirstOrDefault()' uses First/FirstOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+warn: Microsoft.EntityFrameworkCore.Query[10103]
+      Query: '(from Player <generated>_1 in [x] select [<generated>_1].Firstname).FirstOrDefault()' uses First/FirstOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+warn: Microsoft.EntityFrameworkCore.Query[10103]
+      Query: '(from Player <generated>_1 in [x] select [<generated>_1].Lastname).FirstOrDefault()' uses First/FirstOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+warn: Microsoft.EntityFrameworkCore.Query[10103]
+      Query: '(from Player <generated>_1 in [x] select [<generated>_1]).FirstOrDefault()' uses First/FirstOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+warn: Microsoft.EntityFrameworkCore.Query[10103]
+      Query: '(from Player <generated>_1 in [x] select [<generated>_1].Playerid).FirstOrDefault()' uses First/FirstOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+warn: Microsoft.EntityFrameworkCore.Query[10103]
+      Query: '(from Player <generated>_1 in [x] select [<generated>_1].Firstname).FirstOrDefault()' uses First/FirstOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+warn: Microsoft.EntityFrameworkCore.Query[10103]
+      Query: '(from Player <generated>_1 in [x] select [<generated>_1].Lastname).FirstOrDefault()' uses First/FirstOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'join Player x in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Player]) on [folder].Ownerid equals [x].Playerid' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'Union({from Domains domain in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Domains]) where ([domain].Domaintype == 0) where ((([domain].Allowanonymous == 1) OrElse {from Domainmembers member in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Domainmembers]) where (([member].Objecttype == 3) AndAlso ([member].Objectid == __player_PlayerId_4)) where Property([domain], "Domainid") ?= Property([member], "Domainid") select [member] => Any()}) OrElse {from Domainmembers member in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Domainmembers]) where (([member].Objecttype == 4) AndAlso {__player_GroupsIds_5 => Contains([member].Objectid)}) where Property([domain], "Domainid") ?= Property([member], "Domainid") select [member] => Any()}) join Publication publication in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Publication]) on [domain].Domainid equals [publication].Domainid join Folders publication.Folder in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Folders]) on Property([publication], "Folderid") equals Property([publication.Folder], "Folderid") where ([publication].Folderid == __identity_ObjectId_6) select new RecordItem() {CreatedBy = new ActorSet() {User = new Actor() {DisplayName = [publication].Registeredbyname, Id = ToString([publication].Registeredbyid)}}, CreatedDateTime = [publication].Registerdate, Document = new Document() {MimeType = [publication].Mimetype, HashSets = new HashValues() {Crc32Hash = {from Versions version in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Versions]) where (([version].Publicationid == [publication].Publicationid) AndAlso ([version].Versionnumber == IIF(([publication].Releasedversion == 0), [publication].Lastsequence, [publication].Releasedversion))) where Property([publication], "Publicationid") ?= Property([version], "Publicationid") select [version].Chksum => First()}}}, FileInfo = new FileSystemInfo() {CreatedDateTime = [publication].Registerdate, LastModifiedDateTime = Convert([publication].Lastupdated, Nullable`1)}, Id = ("D" + ToString([publication].Publicationid)), IsFavorite = {from Favorites f in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Favorites]) where ((([f].Objectid == [publication].Publicationid) AndAlso ([f].Playerid == __player_PlayerId_7)) AndAlso ([f].Objecttype == 1)) select [f] => Any()}, LastModifiedDateTime = Convert({from Versions version in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Versions]) where (([version].Publicationid == [publication].Publicationid) AndAlso ([version].Versionnumber == IIF(([publication].Releasedversion == 0), [publication].Lastsequence, [publication].Releasedversion))) where Property([publication], "Publicationid") ?= Property([version], "Publicationid") select [version].Creationdate => First()}, Nullable`1), ModifiedBy = new ActorSet() {User = new Actor() {Id = ToString({from Versions version in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Versions]) where (([version].Publicationid == [publication].Publicationid) AndAlso ([version].Versionnumber == IIF(([publication].Releasedversion == 0), [publication].Lastsequence, [publication].Releasedversion))) where Property([publication], "Publicationid") ?= Property([version], "Publicationid") select [version].Playerid => First()}), DisplayName = {from Versions version in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Versions]) where (([version].Publicationid == [publication].Publicationid) AndAlso ([version].Versionnumber == IIF(([publication].Releasedversion == 0), [publication].Lastsequence, [publication].Releasedversion))) where Property([publication], "Publicationid") ?= Property([version], "Publicationid") select [version].Playername => First()}}}, Name = [publication].Name, Library = new LibraryReference() {LibraryId = ToString([publication].Domainid)}, ParentReference = new RecordReference() {Id = ("F" + ToString([publication].Folderid)), Path = Join("/", {from Foldermap map in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Foldermap]) join Folders map.Parent in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Folders]) on Property([map], "Parentid") equals Property([map.Parent], "Folderid") where Property([publication.Folder], "Folderid") ?= Property([map], "Folderid") select [map.Parent].Name}), Name = [publication.Folder].Name}, Publication = new PublicationFacet() {Checkout = IIF(([publication].Checkedoutby > 0), new Actor() {DisplayName = [publication].Checkedoutbyname, Id = ToString([publication].Checkedoutby)}, null), Level = IIF(([publication].Releasedversion > 0), "Published", "UnPublished"), Version = ToString({from Versions version in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Versions]) where (([version].Publicationid == [publication].Publicationid) AndAlso ([version].Versionnumber == IIF(([publication].Releasedversion == 0), [publication].Lastsequence, [publication].Releasedversion))) where Property([publication], "Publicationid") ?= Property([version], "Publicationid") select [version].Versionnumber => First()})}, Size = Convert(Convert({from Versions version in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Versions]) where (([version].Publicationid == [publication].Publicationid) AndAlso ([version].Versionnumber == IIF(([publication].Releasedversion == 0), [publication].Lastsequence, [publication].Releasedversion))) where Property([publication], "Publicationid") ?= Property([version], "Publicationid") select [version].Versionsize => First()}, Int64), Nullable`1)}})' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'First()' could not be translated and will be evaluated locally.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'Union({from Domains domain in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Domains]) where ([domain].Domaintype == 0) where ((([domain].Allowanonymous == 1) OrElse {from Domainmembers member in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Domainmembers]) where (([member].Objecttype == 3) AndAlso ([member].Objectid == __player_PlayerId_4)) where Property([domain], "Domainid") ?= Property([member], "Domainid") select [member] => Any()}) OrElse {from Domainmembers member in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Domainmembers]) where (([member].Objecttype == 4) AndAlso {__player_GroupsIds_5 => Contains([member].Objectid)}) where Property([domain], "Domainid") ?= Property([member], "Domainid") select [member] => Any()}) join Publication publication in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Publication]) on [domain].Domainid equals [publication].Domainid join Folders publication.Folder in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Folders]) on Property([publication], "Folderid") equals Property([publication.Folder], "Folderid") where ([publication].Folderid == __identity_ObjectId_6) select new RecordItem() {CreatedBy = new ActorSet() {User = new Actor() {DisplayName = [publication].Registeredbyname, Id = ToString([publication].Registeredbyid)}}, CreatedDateTime = [publication].Registerdate, Document = new Document() {MimeType = [publication].Mimetype, HashSets = new HashValues() {Crc32Hash = {from Versions version in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Versions]) where (([version].Publicationid == [publication].Publicationid) AndAlso ([version].Versionnumber == IIF(([publication].Releasedversion == 0), [publication].Lastsequence, [publication].Releasedversion))) where Property([publication], "Publicationid") ?= Property([version], "Publicationid") select [version].Chksum => First()}}}, FileInfo = new FileSystemInfo() {CreatedDateTime = [publication].Registerdate, LastModifiedDateTime = Convert([publication].Lastupdated, Nullable`1)}, Id = ("D" + ToString([publication].Publicationid)), IsFavorite = {from Favorites f in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Favorites]) where ((([f].Objectid == [publication].Publicationid) AndAlso ([f].Playerid == __player_PlayerId_7)) AndAlso ([f].Objecttype == 1)) select [f] => Any()}, LastModifiedDateTime = Convert({from Versions version in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Versions]) where (([version].Publicationid == [publication].Publicationid) AndAlso ([version].Versionnumber == IIF(([publication].Releasedversion == 0), [publication].Lastsequence, [publication].Releasedversion))) where Property([publication], "Publicationid") ?= Property([version], "Publicationid") select [version].Creationdate => First()}, Nullable`1), ModifiedBy = new ActorSet() {User = new Actor() {Id = ToString({from Versions version in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Versions]) where (([version].Publicationid == [publication].Publicationid) AndAlso ([version].Versionnumber == IIF(([publication].Releasedversion == 0), [publication].Lastsequence, [publication].Releasedversion))) where Property([publication], "Publicationid") ?= Property([version], "Publicationid") select [version].Playerid => First()}), DisplayName = {from Versions version in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Versions]) where (([version].Publicationid == [publication].Publicationid) AndAlso ([version].Versionnumber == IIF(([publication].Releasedversion == 0), [publication].Lastsequence, [publication].Releasedversion))) where Property([publication], "Publicationid") ?= Property([version], "Publicationid") select [version].Playername => First()}}}, Name = [publication].Name, Library = new LibraryReference() {LibraryId = ToString([publication].Domainid)}, ParentReference = new RecordReference() {Id = ("F" + ToString([publication].Folderid)), Path = Join("/", {from Foldermap map in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Foldermap]) join Folders map.Parent in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Folders]) on Property([map], "Parentid") equals Property([map.Parent], "Folderid") where Property([publication.Folder], "Folderid") ?= Property([map], "Folderid") select [map.Parent].Name}), Name = [publication.Folder].Name}, Publication = new PublicationFacet() {Checkout = IIF(([publication].Checkedoutby > 0), new Actor() {DisplayName = [publication].Checkedoutbyname, Id = ToString([publication].Checkedoutby)}, null), Level = IIF(([publication].Releasedversion > 0), "Published", "UnPublished"), Version = ToString({from Versions version in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryableMagiq.Documents.EntityFrameworkCore.Models.Versions]) where (([version].Publicationid == [publication].Publicationid) AndAlso ([version].Versionnumber == IIF(([publication].Releasedversion == 0), [publication].Lastsequence, [publication].Releasedversion))) where Property([publication], "Publicationid") ?= Property([version], "Publicationid") select [version].Versionnumber => First()})}, Size = Convert(Convert({from Versions version in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Magiq.Documents.EntityFrameworkCore.Models.Versions]) where (([version].Publicationid == [publication].Publicationid) AndAlso ([version].Versionnumber == IIF(([publication].Releasedversion == 0), [publication].Lastsequence, [publication].Releasedversion))) where Property([publication], "Publicationid") ?= Property([version], "Publicationid") select [version].Versionsize => First()}, Int64), Nullable`1)}})' could not be translated and will be evaluated locally.

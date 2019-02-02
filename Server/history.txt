@@ -1,0 +1,582 @@
+    1  raspi-config
+    2  sudo raspi-config
+    3  sudo apt-get dist-upgrade
+    4  sudo nano /etc/dhcpcd.conf
+    5  sudo reboot
+    6  clear
+    7  sudo apt-get update
+    8  sudo apt-get install openvpn
+    9  ls
+   10  cd vpn
+   11  ls
+   12  cat vpn.conf
+   13  ls
+   14  cp vpn.conf /etc/openvpn
+   15  sudo cp vpn.conf /etc/openvpn
+   16  sudo service openvpn@vpn enable
+   17  sudo service vpn@openvpn enable
+   18  curl icanhazip.com
+   19  sudo service openvpn start
+   20  sudo service openvpn status
+   21  sudo systemctl status vpn@openvpn
+   22  sudo systemctl status openvpn
+   23  sudo systemctl status openvpn@vpn
+   24  curl icanhazip.com
+   25  sudo service openvpn stop
+   26  cd /etc/openvpn
+   27  ls
+   28  sudo systemctl enable openvpn
+   29  sudo service openvpn start
+   30  sudo systemctl status openvpn@vpn.service
+   31  curl icanhazip.com
+   32  sudo apt-get install git transmission transmission-daemon
+   33  sudo service transmission-daemon stop
+   34  sudo shutdown now
+   35  python3 pi.py
+   36  cd /media
+   37  ls
+   38  sudo mkdir TORRENTS
+   39  cd ~
+   40  lks
+   41  ls
+   42  sudo fdisk -l
+   43  python3 pi.py
+   44  sudo apt-get install exfat-utils
+   45  python3 pi.py
+   46  cd /media/TORRENTS
+   47  ls
+   48  cd ~
+   49  sudo apt-get install samba
+   50  ls
+   51  sudo apt-get install samba-common-bin
+   52  sudo nano /etc/samba/smb.conf
+   53  sudo service samba restart
+   54  sudo smbpasswd -a pi
+   55  sudo service samba restart
+   56  service smbd restart
+   57  sudo service smbd restart
+   58  cd ~/.config
+   59  cat ~/.config
+   60  sudo apt-get install clonezilla
+   61  sudo apt-get install drbl
+   62  cd /var/lib/
+   63  ls
+   64  cd transmission-daemon
+   65  ls
+   66  cat info
+   67  cd info
+   68  sudo cd info
+   69  sudo cat info
+   70  cd downloads
+   71  ls
+   72  sudo reboot
+   73  python3 pi.py
+   74  sudo service transmission-daemon stop
+   75  sudo reboot
+   76  python3 pi.py
+   77  sudo cat /etc/transmission-daemon/settings.json
+   78  ls
+   79  mkdir gists
+   80  sudo pip3 install python-gist
+   81  sudo apt-get update
+   82  sudo apt-get install pip3
+   83  sudo apt-get install pip3-python
+   84  sudo easy_install pip3
+   85  sudo apt-get easy_install
+   86  sudo apt-get install easy_install
+   87  mkdir temp
+   88  ls
+   89  cd temp
+   90  sudo git clone https://github.com/jdowner/gist
+   91  cd gist
+   92  ls
+   93  sudo python3 setup.py install
+   94  sudo python setup.py install
+   95  sudo pip
+   96  sudo apt-get install python3-pip
+   97  ls
+   98  sudo python3 setup.py install
+   99  sudo python3 setup.py test
+  100  gist
+  101  gist list
+  102  cd /home/pi
+  103  ls
+  104  sudo nano .gist
+  105  gist list
+  106  gist edit ffc8ffec35c242f113a1ca1e86e43b53
+  107  ls
+  108  cd gists
+  109  ls
+  110  cd ~
+  111  cd temp
+  112  ls
+  113  cd gist
+  114  ls
+  115  cd ~
+  116  ls
+  117  cd ~/.ssh
+  118  ls
+  119  ssh-keygen -t rsa -C "jacko1394@me.com"
+  120  ls
+  121  sudo cat id_rsa.pub
+  122  cd ~
+  123  ls
+  124  gist edit ffc8ffec35c242f113a1ca1e86e43b53
+  125  git config --global user.email "jacko1394@me.com"
+  126  git config --global user.name "Jack Della"
+  127  gist edit ffc8ffec35c242f113a1ca1e86e43b53
+  128  python3 pi.py
+  129  clear
+  130  python3 pi.py
+  131  clear
+  132  python3 pi.py
+  133  clear
+  134  python3 pi.py
+  135  clear
+  136  python3 pi.py
+  137  ls
+  138  clear
+  139  python3 pi.py
+  140  clear
+  141  python3 pi.py
+  142  clear
+  143  python3 pi.py
+  144  clear
+  145  python3 pi.py
+  146  c
+  147  lear
+  148  clear
+  149  python3 pi.py
+  150  clear
+  151  python3 pi.py
+  152  clear
+  153  python3 pi.py
+  154  clear
+  155  python3 pi.py
+  156  clear
+  157  python3 pi.py
+  158  clear
+  159  python3 pi.py
+  160  clear
+  161  python3 pi.py
+  162  clear
+  163  ls
+  164  python3 pi.py
+  165  cat .gist
+  166  clear
+  167  python3 pi.py
+  168  git commit
+  169  git commit -av
+  170  git clone ffc8ffec35c242f113a1ca1e86e43b53
+  171  git clone https:www.github.com/ffc8ffec35c242f113a1ca1e86e43b53
+  172  git clone https://gist.github.com/Jacko1394/ffc8ffec35c242f113a1ca1e86e43b53
+  173  ls
+  174  cd ffc8ffec35c242f113a1ca1e86e43b53
+  175  ls
+  176  sudo nano link.txt
+  177  cat link.txt
+  178  git add .
+  179  ls .
+  180  cat .
+  181  git commit -m "5:30pm"
+  182  git push origin master
+  183  git config --global credential.helper cache
+  184  git config --global user.name "Jacko1394"
+  185  git push origin master
+  186  exit
+  187  ls
+  188  sudo git config credential.helper store
+  189  cd ffc8ffec35c242f113a1ca1e86e43b53
+  190  sudo git config credential.helper store
+  191  git config credential.helper store
+  192  sudo nano link.txt
+  193  git commit -m "5:53pm"
+  194  git add .
+  195  git commit -m "5:53pm"
+  196  git push origin master
+  197  sudo apt-get update
+  198  sudo apt-get dist-upgrade
+  199  cd ..
+  200  ls
+  201  cd Ds
+  202  cat Ds
+  203  rm Ds
+  204  rm -r gists
+  205  rm -r temp
+  206  clear
+  207  sudo rm -r temp
+  208  ls
+  209  exit
+  210  history
+  211  sudo apt-get update
+  212  clear
+  213  python3 pi.py
+  214  git clone https://gist.github.com/Jacko1394/ffc8ffec35c242f113a1ca1e86e43b53
+  215  rm ffc8ffec35c242f113a1ca1e86e43b53
+  216  rm -r ffc8ffec35c242f113a1ca1e86e43b53
+  217  sudo rm -r ffc8ffec35c242f113a1ca1e86e43b53
+  218  ls
+  219  python3 pi.py
+  220  l
+  221  sls
+  222  ls
+  223  ls ffc8ffec35c242f113a1ca1e86e43b53
+  224  python3 pi.py
+  225  cd ~/ffc8ffec35c242f113a1ca1e86e43b53
+  226  ls
+  227  cd ..
+  228  python3 pi.py
+  229  cd ~/ffc8ffec35c242f113a1ca1e86e43b53
+  230  ls
+  231  cat link.txt
+  232  cat .
+  233  cd ..
+  234  python3 pi.py
+  235  git add /home/pi/ffc8ffec35c242f113a1ca1e86e43b53
+  236  l
+  237  ls
+  238  cd ~/ffc8ffec35c242f113a1ca1e86e43b53
+  239  ls
+  240  pwd
+  241  git add /home/pi/ffc8ffec35c242f113a1ca1e86e43b53
+  242  cd ~
+  243  git add /home/pi/ffc8ffec35c242f113a1ca1e86e43b53
+  244  python3 pi.py
+  245  git commit -m "getting there"
+  246  git add ./ffc8ffec35c242f113a1ca1e86e43b53
+  247  cd ffc8ffec35c242f113a1ca1e86e43b53
+  248  git add ./ffc8ffec35c242f113a1ca1e86e43b53
+  249  git add /home/pi/ffc8ffec35c242f113a1ca1e86e43b53
+  250  cd ..
+  251  git add "/home/pi/ffc8ffec35c242f113a1ca1e86e43b53"
+  252  cd ffc8ffec35c242f113a1ca1e86e43b53
+  253  su
+  254  cd ..
+  255  python3 pi.py
+  256  git --git-dir=/home/pi/ffc8ffec35c242f113a1ca1e86e43b53 add
+  257  cd ffc8ffec35c242f113a1ca1e86e43b53
+  258  git --git-dir=/home/pi/ffc8ffec35c242f113a1ca1e86e43b53 add
+  259  git add .
+  260  git add
+  261  cd ..
+  262  git --git-dir=/home/pi/ffc8ffec35c242f113a1ca1e86e43b53 add .'
+  263  e
+  264  x
+  265  exit
+  266  exit()
+  267  git --git-dir=/home/pi/ffc8ffec35c242f113a1ca1e86e43b53 add .'
+  268  '"
+  269  '"
+  270  git --git-dir=/home/pi/ffc8ffec35c242f113a1ca1e86e43b53 add .
+  271  cd ffc8ffec35c242f113a1ca1e86e43b53
+  272  git init
+  273  l
+  274  ls
+  275  ls -l
+  276  cd .git
+  277  ls
+  278  cd ~
+  279  ls
+  280  git --git-dir=/home/pi/ffc8ffec35c242f113a1ca1e86e43b53/.git add .
+  281  ls
+  282  python3 pi.py
+  283  git --git-dir=/home/pi/ffc8ffec35c242f113a1ca1e86e43b53/.git push origin master
+  284  git config credential.helper store
+  285  cd ffc8ffec35c242f113a1ca1e86e43b53
+  286  git config credential.helper
+  287  git config credential.helper store
+  288  git config credential.helper
+  289  cd ..
+  290  python3 pi.py
+  291  git --git-dir=/home/pi/ffc8ffec35c242f113a1ca1e86e43b53/.git push origin master
+  292  sudo rm -r ffc8ffec35c242f113a1ca1e86e43b53
+  293  git clone https://gist.github.com/Jacko1394/ffc8ffec35c242f113a1ca1e86e43b53
+  294  cd ffc8ffec35c242f113a1ca1e86e43b53
+  295  ls
+  296  cd .git
+  297  ls
+  298  cd ..
+  299  sudo nano link.txt
+  300  cd ..
+  301  git --git-dir=/home/pi/ffc8ffec35c242f113a1ca1e86e43b53/.git add /home/pi/ffc8ffec35c242f113a1ca1e86e43b53
+  302  git --git-dir=/home/pi/ffc8ffec35c242f113a1ca1e86e43b53/.git commit -m "getting there"
+  303  git --git-dir=/home/pi/ffc8ffec35c242f113a1ca1e86e43b53/.git push origin master
+  304  sudo rm -r ffc8ffec35c242f113a1ca1e86e43b53
+  305  python3 pi.py
+  306  git --work/tree=/home/pi/ffc8ffec35c242f113a1ca1e86e43b53/ add .
+  307  git --work-tree=/home/pi/ffc8ffec35c242f113a1ca1e86e43b53/ add .
+  308  git --work-tree=/home/pi/ffc8ffec35c242f113a1ca1e86e43b53 add .
+  309  git --work-tree=/home/pi/ffc8ffec35c242f113a1ca1e86e43b53 add /home/pi/ffc8ffec35c242f113a1ca1e86e43b53
+  310  ls
+  311  python3 pi.py
+  312  cd ffc8ffec35c242f113a1ca1e86e43b53
+  313  git add .
+  314  sudo nano link.txt
+  315  git commit -m "kkk"
+  316  git push origin master
+  317  cd ..
+  318  python3 pi.py
+  319  contrab -l
+  320  contab -l
+  321  crontab -l
+  322  crontab
+  323  crontab -e
+  324  crontab -l
+  325  sudo reboot
+  326  python3 pi.py
+  327  sudo service openvpn disable
+  328  sudo service transmission-daemon stop
+  329  sudo service openvpn stop
+  330  sudo umount /dev/sda1
+  331  sudo systemctl disable openvpn
+  332  sudo systemctl disable openvpn@vpn.service
+  333  sudo systemctl disable transmission-daemon
+  334  sudo systemctl disable transmission
+  335  sudo reboot
+  336  ls
+  337  cd .gist
+  338  cat .gist
+  339  python3 pi.py
+  340  git config
+  341  git config --global
+  342  git config --global --l
+  343  git config --l
+  344  git config -l
+  345  git config credential.helper store
+  346  git config --credential.helper store
+  347  git config --global credential.helper store
+  348  git config -l
+  349  crontab
+  350  crontab -l
+  351  crontab -e
+  352  sudo reboot
+  353  git config -l
+  354  python3 pi.py
+  355  git clean
+  356  cd ffc8ffec35c242f113a1ca1e86e43b53
+  357  git clean
+  358  cd ..
+  359  crontab -e
+  360  crontab -e -u pi
+  361  sudo reboot
+  362  git config -l
+  363  python3 pi.py
+  364  sudo nano pi.py
+  365  sudo reboot
+  366  python3 pi.py
+  367  sudo nano pi.py
+  368  sudo reboot
+  369  ls
+  370  exit
+  371  sudo apt-get install clonezilla
+  372  dpkg --get-selections | grep hold
+  373  sudo apt-get update
+  374  sudo apt-get autoremove
+  375  sudo apt-get install clonezilla
+  376  sudo apt-get install drbl
+  377  cd /media/TORRENTS
+  378  ls
+  379  sudo fdisk -l
+  380  sudo dd bs=4M if=/dev/mmcblk0 of=pitorrent.img
+  381  ls
+  382  zip pitorrent.img ./pitorr.zip
+  383  sudo apt-get install zip
+  384  zip pitorrent.img ~/pitorr.zip
+  385  zip --help
+  386  sudo apt-get install unzip
+  387  zip pitorrent.img
+  388  gzip pitorrents.img
+  389  gzip pitorrent.img
+  390  ls
+  391  exit
+  392  history
+  393  exit
+  394  sudo apt-get update
+  395  sudo apt-get dist-upgrade
+  396  sudo reboot
+  397  /var/spool/cron/crontabs/
+  398  cd /var/spool/cron/crontabs/
+  399  sudo cd /var/spool/cron/crontabs/
+  400  su
+  401  sudo EDITOR=nano crontab -e
+  402  EDITOR=nano crontab -e
+  403  sudo EDITOR=nano crontab -e
+  404  ls
+  405  exit
+  406  sudo apt-get update
+  407  curl icanhazip.com
+  408  sudo reboot
+  409  sudo apt-get dist-upgrade
+  410  exit
+  411  sudo reboot
+  412  sudo EDITOR=nano crontab -e
+  413  sudo apt-get update
+  414  sudo reboot
+  415  sudo apt-get update
+  416  curl icanhazip.com
+  417  sudo apt-get dist-upgrade
+  418  pi.py
+  419  python3 pi.py
+  420  python3
+  421  clear
+  422  python3 pi.py
+  423  time
+  424  raspi-config
+  425  sudo raspi-config
+  426  sudo reboot
+  427  time
+  428  python3 pi.py
+  429  exit
+  430  sudo apt-get update
+  431  sudo apt-get dist-upgrade
+  432  sudo reboot
+  433  python3 pi.py
+  434  exit
+  435  sudo shutdown now
+  436  python3 pi.py
+  437  exit
+  438  curl icanhazip.com
+  439  sudo service openvpn status
+  440  sudo systemctl status openvpn@vpn
+  441  python3 pi.py
+  442  sudo EDITOR=nano crontab -e
+  443  sudo nano pi.py
+  444  sudo EDITOR=nano crontab -e
+  445  sudo reboot
+  446  sudo apt-get update
+  447  transmission-remote --torrent all --start
+  448  transmission-remote 192.168.0.69:24006 --torrent all --start
+  449  sudo apt-get dist-upgrade
+  450  sudo reboot
+  451  sudo EDITOR=nano crontab -e
+  452  sudo reboot
+  453  sudo apt-get update
+  454  sudo service openvpn stop
+  455  sudo apt-get update
+  456  sudo apt-get dist-upgrade
+  457  sudo reboot
+  458  curl icanhazip.com
+  459  sudo apt-get update
+  460  sudo apt-get dist-upgrade
+  461  sudo reboot
+  462  sudo apt-get update
+  463  sudo apt-get dist-upgrade
+  464  sudo reboot
+  465  sudo shutdown now
+  466  ls
+  467  python3 pi.py
+  468  exit
+  469  sudo apt-get update
+  470  sudo apt-get dist-upgrade
+  471  sudo reboot
+  472  sudo apt-get update
+  473  sudo curl icanhazip.com
+  474  sudo apt-get dist-upgrade
+  475  exit
+  476  sudo shutdown now
+  477  ls
+  478  sudo service transmission-daemon stop
+  479  sudo apt-get update
+  480  sudo apt-get dist-upgrade
+  481  sudo reboot
+  482  sudo apt-get update
+  483  sudo apt-get dist-upgrade
+  484  sudo reboot
+  485  sudo shutdown now
+  486  sudo apt-get update
+  487  exit
+  488  sudo apt-get update
+  489  sudo apt-get dist-upgrafde
+  490  sudo apt-get dist-upgrade
+  491  sudo shutdown now
+  492  ls
+  493  sudo apt-get update
+  494  sudo service transmission-daemon stop
+  495  sudo service openvpn stop
+  496  history | grep curl
+  497  curl icanhazip.com
+  498  sudo apt-get update
+  499  sudo apt-get full-upgrade
+  500  clear
+  501  ls
+  502  l;s
+  503  ;s
+  504  ls
+  505  cal
+  506  sudo apt-get update
+  507  sudo apt-get full-upgrade
+  508  sudo reboot
+  509  ls
+  510  curl icanhazip.com
+  511  ls
+  512  cat pi.py
+  513  ls
+  514  cp pi.py /media/TORRENTS
+  515  clear
+  516  ls
+  517  which gist
+  518  gist --version
+  519  ls
+  520  cat /proc/cpuinfo
+  521  ls
+  522  sudo reboot
+  523  cd /etc/openvpn
+  524  ls
+  525  cat vpn.conf
+  526  ls
+  527  cd /etc/transmission-daemon
+  528  ls
+  529  cat settings.json
+  530  sudo cat settings.json
+  531  exit
+  532  history
+  533  curl icanhazip.com
+  534  sudo reboot
+  535  curl icanhazip.com
+  536  crontab
+  537  ls
+  538  crontab
+  539  sudo nano crontab
+  540  sudo crontab -e
+  541  date
+  542  ls
+  543  date
+  544  sudo crontab -e
+  545  ls
+  546  cat pi.py
+  547  crontab -e
+  548  pi.py
+  549  python3 pi.py
+  550  exit
+  551  sudo reboot
+  552  sudo shutdown now
+  553  clear
+  554  ls
+  555  graph
+  556  cd vpn
+  557  ls
+  558  cal
+  559  ls
+  560  exit
+  561  sudo apt-get install apt-transport-https
+  562  wget -O - https://dev2day.de/pms/dev2day-pms.gpg.key | sudo apt-key add -
+  563  echo "deb https://dev2day.de/pms/ jessie main" | sudo tee /etc/apt/sources.list.d/pms.list
+  564  sudo apt-get update
+  565  sudo apt-get install -t jessie plexmediaserver
+  566  exit
+  567  cal
+  568  date
+  569  sudo shutdown now
+  570  cd /etc/transmission-daemon
+  571  ls
+  572  cat settings.json
+  573  sudo cat settings.json
+  574  ls
+  575  cd /etc/default
+  576  ls
+  577  cd openvpn
+  578  cat openvpn
+  579  code openvpn
+  580  exit
+  581  history
+  

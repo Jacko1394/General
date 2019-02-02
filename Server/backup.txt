@@ -1,0 +1,20 @@
+//ZEUS
+
+789G	./Downloads
+169G	./Documents
+27G		./Games
+40G		./Music
+444G	./Photo
+1.6T	./Video
+
+3.0T // total data
+
+3.7T // ZEUS
+1.8T // FRAPS
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+
+/dev/sdc2       117G   38G   74G  34% /
+/dev/sdb2       3.7T  3.0T  657G  83% /media/ZEUS
+/dev/sda1       1.8T  1.7T   43G  98% /media/FRAPS

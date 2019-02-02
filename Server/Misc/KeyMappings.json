@@ -1,0 +1,9 @@
+{
+	"VSCode": {
+		"Split Vert Horiz": "Alt + Shift + 0"
+	},
+	"Visual Studio": {
+		"Close solution": "Cmd + Alt + W",
+		"Fold functions": "Cmd + Alt + Shift + DownArrow"
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"notes": {
+		"Compress before encrypting": true,
+		"msgToEml": "python3.6 do.py < msg.msg > eml.eml"
+	},
+	"gpg": {
+		"encrypt": "gpg --cipher-algo AES256 -c input.txt",
+		"decrypt": "gpg -o output.txt -d input.txt.gpg"
+	},
+	"zip": {
+		"encryptFile": "zip -e output.zip input.txt",
+		"encryptDirectory": "zip -er output.zip path (no /prefix)"
+	},
+	"base64strings": {
+		"encode": "openssl base64 -in input.txt -out output.txt",
+		"decode": "openssl base64 -d -in input.txt -out output.txt"
+	},
+	"git": {
+		"branchFromCommit": "git checkout -b <branchName> <SHA>",
+		"deleteBranch": "git branch -d <branchName>",
+		"commitOntoNewBranch": "git checkout -b <branchName>",
+		"stashSave": "git stash save 'desc'",
+		"stashLoad": "git stash apply stash@{n}",
+		"stashExtra": "git stash list, git stash drop/clear", // drop= rm last one or specify, clear= all
+		"undoCommits": "git reset --soft HEAD~2", // soft=remember changes to recommit, ~<number of commits>
+		"mergeToCommit": "git merge <SHA>"
+			/* (on branch development) $ git merge master
+			(resolve any merge conflicts if there are any) git checkout master
+			git merge development (there won't be any conflicts now) */
+	},
+	"apache": {
+		"directory": "/etc/apache2",
+		"config": "httpd.conf",
+		"run": "sudo apachectl start",
+		"createPassword": "sudo htpasswd -c /etc/apache2/.htpasswd jacko1394"
+	},
+	"linux": {
+		"dd": "dd if=/dev/sda of=/path/backup.img bs=64K (clone drive)",
+		"disableGnomeStartup": "sudo nano /etc/default/grub && sudo update-grub) // 0 gui 3 cmd",
+		"ngrokSSH": "ssh xxx@0.tcp.ngrok.io -p12345",
+		"Disk fullness": "df -h", // lists drive space
+		"Directory usage": "du -hs ./dir", // shows folder size
+		"rsync": "rsync -avh /source/path /destination/targetFolder (a-archive, v-verbose, h-readable, dont include path in dest)"
+	},
+	"mac": {
+		"python": {
+			"2.7": "/System/Library/Frameworks/",
+			"3.6": "/Library/Frameworks/",
+			"packages": "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages",
+			"sudo": "os.system('echo %s|sudo -S %s' % (pwd, 'reboot now'))",
+			"subprocess": "temp = subprocess.check_output('ls -la', shell=True)",
+			"files": "f1 = open('/Users/file.json', 'r+')",
+			"json": "data = json.load(f1)",
+			"forEachLineOfText": "for line in text.splitlines():" // for str, if file use readlines()
+		},
+		"iCloud path": "/Users/jd/Library/Mobile Documents/",
+		"newAppInstance": "open -n -a 'Visual Studio'",
+		"showHiddenFiles": "CMD + SHIFT + ."
+	},
+	"magiq": {
+		"cust0": "ssh -p 228 jack.della@cust0.intx.magiqdev.cloud",
+		"demo": "ssh -p 222 t1adm@clouddemonstration-lb.intx.magiqcloud.com"
+	},
+	"docker": {
+		"general": "docker images / docker ps",
+		"deleteImage": "docker image rm e653a29f80f7",
+		"start": "docker run -it ubuntu",
+		"run": "docker run -v /Users/jd/Documents:/Documents -i -e ACCEPT_EULA=Y -e SA_PASSWORD=pwd -p 1433:1433 -d microsoft/mssql-server-linux",
+		"exec": "docker exec -it bfec5cae86c8 ls -la",
+		"commit": "docker commit -m inforouter bfec5cae86c8 inforouter:latest",
+		"cp": "docker cp foo.txt mycontainer:/foo.txt",
+		"clean": "docker system prune --volumes -f"
+	}
+}

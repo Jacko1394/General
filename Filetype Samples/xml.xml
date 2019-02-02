@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap12:Envelope xmlns:soap12="http://www.w3.org/2003/05/soap-envelope"
+                 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soap12:Body>
+        <UploadDocument4 xmlns="http://tempuri.org/">
+            <AuthenticationTicket>3f6f2824-0d1e-47cb-a6ae-c5f87bd73a79</AuthenticationTicket>
+            <Path>\Test\SubFolder\file.pdf</Path>
+            <FileContent>BASE64ENCODED_FILE_STRING_GOES_HERE</FileContent>
+            <xmlParameters>&lt;uploadparams&gt;&lt;item name="" value=""/&gt;&lt;/uploadparams&gt;</xmlParameters>
+        </UploadDocument4>
+    </soap12:Body>
+</soap12:Envelope>

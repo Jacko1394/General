@@ -1,0 +1,30 @@
+{
+    "workbench.statusBar.feedback.visible": false,
+    "editor.fontFamily": "Hack",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 18,
+    "editor.tabSize": 4,
+    "editor.renderWhitespace": "all",
+    "editor.insertSpaces": false,
+    "editor.minimap.maxColumn": 200,
+    "workbench.activityBar.visible": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDelete": false,
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+    "workbench.statusBar.visible": true,
+    "workbench.iconTheme": "vscode-great-icons",
+    "remotefs.remote": {
+        "xxx": {
+            "scheme": "sftp", 
+            "host": "192.168.0.7",
+            "port": 22,
+            "username": "xxx",
+            "password": "birdie133",
+            "rootPath": "/",
+            "connectTimeout": 10000,
+          }
+    }
+}

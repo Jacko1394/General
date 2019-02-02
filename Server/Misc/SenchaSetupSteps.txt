@@ -1,0 +1,21 @@
+[Sencha setup steps]
+
+git clone
+
+[copy /ext to project dir]
+
+sencha workspace init
+
+[Add this to workspace.json]
+    "frameworks": {
+        "ext": {
+            "path": "ext"
+        }
+    }
+
+sencha app clean
+sencha app refresh
+sencha app build development
+sencha app watch
+
+sencha build production

@@ -1,0 +1,49 @@
+Flash Test Environment with Production
+Prerequisites
+ Check that it is okay to overwrite Test (Sometimes your site may have things in progress and don’t want to lose the current test instance so a new ‘test’ instance needs to be made)
+Database Backup/Restore
+ Create backup of the MAGIQ Performance MSSQL test database for DR purpose.
+ Take a backup of the MAGIQ Performance MSSQL production database.
+ Restore the production backup over the top of the test database.
+Post Restore MSSQL
+There are various hard coded path locations in the database. You will need to run SQL to fix them in the test environment.
+The following is SQL Server specific and the path references will obviously be relevant to the site you are working on. We recommend running a SELECT statement on the tables to identify the original data to start:
+-- CT_ATTACHMENTS
+UPDATE CT_ATTACHMENTS SET FILEPATH = REPLACE(FILEPATH, '\\<server>\MAGIQ\PROD', '\\<server>\MAGIQ\TEST ');
+-- CT_EI_ALERTS
+UPDATE CT_EI_ALERTS
+SET SUMMARY_RESULT_HTML = REPLACE(CAST(SUMMARY_RESULT_HTML AS VARCHAR(8000)), '\\<server>\MAGIQ\PROD', '\\<server>\MAGIQ\TEST '); UPDATE CT_EI_ALERTS
+SET SUMMARY_RESULT_HTML_HIGH = REPLACE(CAST(SUMMARY_RESULT_HTML_HIGH AS VARCHAR(8000)), '\\<server>\MAGIQ\PROD', '\\<server>\MAGIQ\TEST '); UPDATE CT_EI_ALERTS
+SET SUMMARY_RESULT_HTML_LOW = REPLACE(CAST(SUMMARY_RESULT_HTML_LOW AS VARCHAR(8000)), '\\<server>\MAGIQ\PROD', '\\<server>\MAGIQ\TEST ');
+-- CT_EI_PORTLETS
+UPDATE CT_EI_PORTLETS SET PORTLET_DETAILS = REPLACE(PORTLET_DETAILS, '\\<server>\MAGIQ\PROD', '\\<server>\MAGIQ\TEST ');
+-- CT_EI_FUN_PARAMS
+UPDATE CT_EI_FUN_PARAMS SET PARAMETER_VALUE = REPLACE(PARAMETER_VALUE, '\\<PROD SERVER>', '\\<TEST SERVER>')
+Application
+The application itself is stored as files on the designated Application Server. Users access it via a Windows share which in turn downloads the app to the local PC.
+To set up a copy to the test environment, copy the 'production' application files to the 'test' location and set up a 'test' share:
+ Create copy of the test bin directory (..\software\bin) for DR purpose.
+ Locate production bin directory (..\software\bin) and copy all files EXCEPT for files with a .XML
+extension ( e.g. but not limited to “CT.EI.Configurations.xml” & “CT.EI.ConfigurationsTool.xml” )
+ Paste files into test bin directory
+ Open CT.EI.Config.exe and check configuration. This will require a password owned by MAGIQ.
+ DO NOT PUBLISH TEST ENVIRONMENTS as this may conflict with production environments if on the
+same server.
+ Set up a Windows share for accessing the test environment.
+MAGIQGenerator(s) – For initial set up only
+Please note this section assumes that the MAGIQ consultant set up the connection settings within the generator with both environments.
+ Locate any .PGF files in use:
+ Create copy of files from test for DR purpose.
+ Copy production PGF files over the top of test files.
+ Then open the MAGIQGenerator software and edit
+ Open MAGIQGenerator tabs
+ Press “F4”
+ Change MAGIQGenerator settings to the test location instead of production
+ Open parameters and ensure that any source documents are referenced to the test server.
+Configurations Directory
+ Open configurations (..\configurations) and then config (e.g. MAGIQ or PROD) directory - Create copies of the files within the directory for DR purpose.
+ Copy all files from the production directory into test.
+Other
+ Any portlets with UNC paths to test need to be reconfigured to the test server
+ Any Splash Alerts (using the HTML with images in them) will need to be reconfigured to the test
+server.
