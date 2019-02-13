@@ -1,0 +1,63 @@
+{
+    "editor.tabSize": 4,
+    "editor.renderWhitespace": "all",
+    "editor.detectIndentation": true,
+    "editor.fontLigatures": true,
+    "editor.insertSpaces": false,
+    "editor.minimap.maxColumn": 200,
+    "editor.fontSize": 18,
+    "editor.fontFamily": "Monaco, 'Courier New', monospace",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.autoIndent": true,
+    "editor.codeLens": true,
+    "editor.dragAndDrop": false,
+    "editor.tabCompletion": "on",
+
+    "explorer.confirmDelete": false,
+
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.activityBar.visible": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.visible": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.fontAliasing": "antialiased",
+    "workbench.colorTheme": "Material Theme",
+
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontSize": 14,
+
+    "extensions.ignoreRecommendations": true,
+
+    "vsicons.projectDetection.disableDetect": true,
+
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+
+    "remotefs.remote": {
+        "xxx": {
+            "scheme": "sftp", 
+            "host": "192.168.0.6",//ssh xxx@0.tcp.ngrok.io -p12345
+            "port": 22,
+            "username": "xxx",
+            "password": "birdie133",
+            "rootPath": "/",
+            "connectTimeout": 8000,
+          },
+        "xxx2": {
+        "scheme": "sftp", 
+        "host": "172.20.10.4",//ssh xxx@0.tcp.ngrok.io -p12345
+        "port": 22,
+        "username": "pi",
+        "password": "birdie133",
+        "rootPath": "/",
+        "connectTimeout": 8000,
+        }
+    },
+    "git.enableSmartCommit": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.cursorBlinking": "expand",
+    "omnisharp.useEditorFormattingSettings": true,
+    "csharp.format.enable": false
+}
