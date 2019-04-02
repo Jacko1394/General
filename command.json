@@ -23,10 +23,11 @@
 		"stashLoad": "git stash apply stash@{n}",
 		"stashExtra": "git stash list, git stash drop/clear", // drop= rm last one or specify, clear= all
 		"undoCommits": "git reset --soft HEAD~2", // soft=remember changes to recommit, ~<number of commits>
-		"mergeToCommit": "git merge <SHA>"
+		"mergeToCommit": "git merge <SHA>",
 			/* (on branch development) $ git merge master
 			(resolve any merge conflicts if there are any) git checkout master
 			git merge development (there won't be any conflicts now) */
+		"changeRemoteUrl": "git remote set-url origin https://magiqtfs.blah.com  THEN  git push -u origin --all"
 	},
 	"apache": {
 		"directory": "/etc/apache2",
@@ -70,5 +71,13 @@
 		"commit": "docker commit -m inforouter bfec5cae86c8 inforouter:latest",
 		"cp": "docker cp foo.txt mycontainer:/foo.txt",
 		"clean": "docker system prune --volumes -f"
+	},
+	"mongo": {
+		"startMongoDaemon": "mongod --dbpath /usr/local/var/mongodb",
+		"shell": "mongo",
+		"listDbs": "show dbs",
+		"createSelectDb": "use parking",
+		"collections": "show collections",
+		"countDocuments": "db.collectionName.count()"
 	}
 }
