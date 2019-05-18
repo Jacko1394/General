@@ -1,7 +1,8 @@
 {
 	"notes": {
 		"Compress before encrypting": true,
-		"msgToEml": "python3.6 do.py < msg.msg > eml.eml"
+		"msgToEml": "python3.6 do.py < msg.msg > eml.eml",
+		"bash": "#!/usr/bin/env bash"
 	},
 	"gpg": {
 		"encrypt": "gpg --cipher-algo AES256 -c input.txt",
