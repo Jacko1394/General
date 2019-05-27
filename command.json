@@ -57,7 +57,8 @@
 		},
 		"iCloud path": "/Users/jd/Library/Mobile Documents/",
 		"newAppInstance": "open -n -a 'Visual Studio'",
-		"showHiddenFiles": "CMD + SHIFT + ."
+		"showHiddenFiles": "CMD + SHIFT + .",
+		"dotnet": "/usr/local/share/dotnet/sdk/2.2.105"
 	},
 	"magiq": {
 		"cust0": "ssh -p 228 jack.della@cust0.intx.magiqdev.cloud",
