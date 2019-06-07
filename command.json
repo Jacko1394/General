@@ -28,7 +28,8 @@
 			/* (on branch development) $ git merge master
 			(resolve any merge conflicts if there are any) git checkout master
 			git merge development (there won't be any conflicts now) */
-		"changeRemoteUrl": "git remote set-url origin https://magiqtfs.blah.com  THEN  git push -u origin --all"
+		"viewUrl": ["git remote -v", "git config --get remote.origin.url", "git remote show origin"],
+		"changeRemoteUrl": ["git remote set-url origin https://magiqtfs.blah.com", "git push -u origin --all", "git push --mirror"]
 	},
 	"apache": {
 		"directory": "/etc/apache2",
