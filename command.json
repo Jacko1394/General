@@ -82,5 +82,9 @@
 		"createSelectDb": "use parking",
 		"collections": "show collections",
 		"countDocuments": "db.collectionName.count()"
+	},
+	"nuget": {
+		"add": "nuget sources Add -Name \"Magiq\" -Source \"https://tfs.com/index.json\"",
+		"push": "nuget push -Source \"Magiq_Beta\" -ApiKey abcd123 package.nupkg"
 	}
 }
