@@ -1,7 +1,7 @@
 {
 	"notes": {
 		"Compress before encrypting": true,
-		"msgToEml": "python3.6 do.py < msg.msg > eml.eml",
+		"msgToEml": "python3.6 do.py < in.msg > out.eml",
 		"bash": "#!/usr/bin/env bash"
 	},
 	"gpg": {
@@ -29,13 +29,15 @@
 			(resolve any merge conflicts if there are any) git checkout master
 			git merge development (there won't be any conflicts now) */
 		"viewUrl": ["git remote -v", "git config --get remote.origin.url", "git remote show origin"],
-		"changeRemoteUrl": ["git remote set-url origin https://magiqtfs.blah.com", "git push -u origin --all", "git push --mirror"]
+		"changeRemoteUrl": ["git remote set-url origin https://magiqtfs.blah.com", "git push -u origin --all", "git push --mirror"],
+		"ignoreAllUntrackedFiles": "git status -uno"
 	},
 	"apache": {
 		"directory": "/etc/apache2",
 		"config": "httpd.conf",
 		"run": "sudo apachectl start",
-		"createPassword": "sudo htpasswd -c /etc/apache2/.htpasswd jacko1394"
+		"createPassword": "sudo htpasswd -c /etc/apache2/.htpasswd jacko1394",
+		"https": "certbot.eff.org"
 	},
 	"linux": {
 		"dd": "dd if=/dev/sda of=/path/backup.img bs=64K (clone drive)",
@@ -58,8 +60,10 @@
 		},
 		"iCloud path": "/Users/jd/Library/Mobile Documents/",
 		"newAppInstance": "open -n -a 'Visual Studio'",
-		"showHiddenFiles": "CMD + SHIFT + .",
-		"dotnet": "/usr/local/share/dotnet/sdk/2.2.105"
+		"showHiddenFiles": "CMD + SHIFT + ."
+	},
+	"dotnet": {
+		"location": "/usr/local/share/dotnet/sdk/2.2.105"
 	},
 	"magiq": {
 		"cust0": "ssh -p 228 jack.della@cust0.intx.magiqdev.cloud",
