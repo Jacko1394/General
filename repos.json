@@ -1,0 +1,4 @@
+{
+	"public": ["General", "OOSD", "HeapFile", "MongoDB", "bPlusTree", "SpeedOrder"],
+	"private": ["MAGIQ Mobile", "documents", "packages", "Generators", "News"]
+}

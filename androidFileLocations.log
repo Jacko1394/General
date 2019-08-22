@@ -1,0 +1,64 @@
+DebugFunc();  WhereEnumerableIterator`1 : [
+  "/data/user/0/com.magiqsoftware.MagiqMobile/files/Desktop",
+  "/data/user/0/com.magiqsoftware.MagiqMobile/files",
+  "/data/user/0/com.magiqsoftware.MagiqMobile/files",
+  "/data/user/0/com.magiqsoftware.MagiqMobile/files/Music",
+  "/data/user/0/com.magiqsoftware.MagiqMobile/files/Videos",
+  "/data/user/0/com.magiqsoftware.MagiqMobile/files/Desktop",
+  "/data/user/0/com.magiqsoftware.MagiqMobile/files/.fonts",
+  "/data/user/0/com.magiqsoftware.MagiqMobile/files/Templates",
+  "/data/user/0/com.magiqsoftware.MagiqMobile/files/.config",
+  "/data/user/0/com.magiqsoftware.MagiqMobile/files/.local/share",
+  "/usr/share",
+  "/data/user/0/com.magiqsoftware.MagiqMobile/files/Pictures",
+  "/data/user/0/com.magiqsoftware.MagiqMobile/files",
+  "/usr/share/templates"
+]
+
+Desktop : /data/user/0/com.magiqsoftware.MagiqMobile/files/Desktop
+Programs : 
+MyDocuments : /data/user/0/com.magiqsoftware.MagiqMobile/files
+MyDocuments : /data/user/0/com.magiqsoftware.MagiqMobile/files
+Favorites : 
+Startup : 
+Recent : 
+SendTo : 
+StartMenu : 
+MyMusic : /data/user/0/com.magiqsoftware.MagiqMobile/files/Music
+MyVideos : /data/user/0/com.magiqsoftware.MagiqMobile/files/Videos
+DesktopDirectory : /data/user/0/com.magiqsoftware.MagiqMobile/files/Desktop
+MyComputer : 
+NetworkShortcuts : 
+Fonts : /data/user/0/com.magiqsoftware.MagiqMobile/files/.fonts
+Templates : /data/user/0/com.magiqsoftware.MagiqMobile/files/Templates
+CommonStartMenu : 
+CommonPrograms : 
+CommonStartup : 
+CommonDesktopDirectory : 
+ApplicationData : /data/user/0/com.magiqsoftware.MagiqMobile/files/.config
+PrinterShortcuts : 
+LocalApplicationData : /data/user/0/com.magiqsoftware.MagiqMobile/files/.local/share
+InternetCache : 
+Cookies : 
+History : 
+CommonApplicationData : /usr/share
+Windows : 
+System : 
+ProgramFiles : 
+MyPictures : /data/user/0/com.magiqsoftware.MagiqMobile/files/Pictures
+UserProfile : /data/user/0/com.magiqsoftware.MagiqMobile/files
+SystemX86 : 
+ProgramFilesX86 : 
+CommonProgramFiles : 
+CommonProgramFilesX86 : 
+CommonTemplates : /usr/share/templates
+CommonDocuments : 
+CommonAdminTools : 
+AdminTools : 
+CommonMusic : 
+CommonPictures : 
+CommonVideos : 
+Resources : 
+LocalizedResources : 
+CommonOemLinks : 
+CDBurning : 
