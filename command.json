@@ -25,11 +25,19 @@
 		"stashExtra": "git stash list, git stash drop/clear", // drop= rm last one or specify, clear= all
 		"undoCommits": "git reset --soft HEAD~2", // soft=remember changes to recommit, ~<number of commits>
 		"mergeToCommit": "git merge <SHA>",
-			/* (on branch development) $ git merge master
+		/* (on branch development) $ git merge master
 			(resolve any merge conflicts if there are any) git checkout master
 			git merge development (there won't be any conflicts now) */
-		"viewUrl": ["git remote -v", "git config --get remote.origin.url", "git remote show origin"],
-		"changeRemoteUrl": ["git remote set-url origin https://magiqtfs.blah.com", "git push -u origin --all", "git push --mirror"],
+		"viewUrl": [
+			"git remote -v",
+			"git config --get remote.origin.url",
+			"git remote show origin"
+		],
+		"changeRemoteUrl": [
+			"git remote set-url origin https://magiqtfs.blah.com",
+			"git push -u origin --all",
+			"git push --mirror"
+		],
 		"ignoreAllUntrackedFiles": "git status -uno"
 	},
 	"apache": {
@@ -73,6 +81,7 @@
 		"general": "docker images / docker ps",
 		"deleteImage": "docker image rm e653a29f80f7",
 		"start": "docker run -it ubuntu",
+		"attach": "docker attach b25469cb90d9",
 		"run": "docker run -v /Users/jd/Documents:/Documents -i -e ACCEPT_EULA=Y -e SA_PASSWORD=pwd -p 1433:1433 -d microsoft/mssql-server-linux",
 		"exec": "docker exec -it bfec5cae86c8 ls -la",
 		"commit": "docker commit -m inforouter bfec5cae86c8 inforouter:latest",
