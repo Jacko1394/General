@@ -38,7 +38,8 @@
 			"git push -u origin --all",
 			"git push --mirror"
 		],
-		"ignoreAllUntrackedFiles": "git status -uno"
+		"ignoreAllUntrackedFiles": "git status -uno",
+		"ignoreLocalChangesForFile": "git update-index --assume-unchanged file.json"
 	},
 	"apache": {
 		"directory": "/etc/apache2",
