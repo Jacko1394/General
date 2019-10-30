@@ -34,7 +34,7 @@
 			"git remote show origin"
 		],
 		"changeRemoteUrl": [
-			"git remote set-url origin https://magiqtfs.blah.com",
+			"git remote set-url origin https://magiqtfs.blah.com", // git remote add origin
 			"git push -u origin --all",
 			"git push --mirror"
 		],
