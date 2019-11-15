@@ -39,7 +39,8 @@
 			"git push --mirror"
 		],
 		"ignoreAllUntrackedFiles": "git status -uno",
-		"ignoreLocalChangesForFile": "git update-index --assume-unchanged file.json"
+		"ignoreLocalChangesForFile": "git update-index --assume-unchanged file.json",
+		"deleteRemoteBranch": "git push -d origin feature-swag"
 	},
 	"apache": {
 		"directory": "/etc/apache2",
