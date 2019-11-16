@@ -40,7 +40,8 @@
 		],
 		"ignoreAllUntrackedFiles": "git status -uno",
 		"ignoreLocalChangesForFile": "git update-index --assume-unchanged file.json",
-		"deleteRemoteBranch": "git push -d origin feature-swag"
+		"deleteRemoteBranch": "git push -d origin feature-swag",
+		"submodule": "git submodule add git@..."
 	},
 	"apache": {
 		"directory": "/etc/apache2",
