@@ -21,7 +21,7 @@
 		"deleteBranch": "git branch -d <branchName>",
 		"commitOntoNewBranch": "git checkout -b <branchName>",
 		"stashSave": "git stash save 'desc'",
-		"stashLoad": "git stash apply stash@{n}",
+		"stashLoad": "git stash apply stash@{0}",
 		"stashExtra": "git stash list, git stash drop/clear", // drop= rm last one or specify, clear= all
 		"undoCommits": "git reset --soft HEAD~2", // soft=remember changes to recommit, ~<number of commits>
 		"mergeToCommit": "git merge <SHA>",
