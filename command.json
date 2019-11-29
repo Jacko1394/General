@@ -1,21 +1,4 @@
 {
-	"notes": {
-		"Compress before encrypting": true,
-		"msgToEml": "python3.6 do.py < in.msg > out.eml",
-		"bash": "#!/usr/bin/env bash"
-	},
-	"gpg": {
-		"encrypt": "gpg --cipher-algo AES256 -c input.txt",
-		"decrypt": "gpg -o output.txt -d input.txt.gpg"
-	},
-	"zip": {
-		"encryptFile": "zip -e output.zip input.txt",
-		"encryptDirectory": "zip -er output.zip path (no /prefix)"
-	},
-	"base64strings": {
-		"encode": "openssl base64 -in input.txt -out output.txt",
-		"decode": "openssl base64 -d -in input.txt -out output.txt"
-	},
 	"git": {
 		"branchFromCommit": "git checkout -b <branchName> <SHA>",
 		"deleteBranch": "git branch -d <branchName>",
@@ -35,13 +18,31 @@
 		],
 		"changeRemoteUrl": [
 			"git remote set-url origin https://magiqtfs.blah.com", // git remote add origin
-			"git push -u origin --all",
+			"git push -u origin --all", // git push -u origin <branch>
 			"git push --mirror"
 		],
 		"ignoreAllUntrackedFiles": "git status -uno",
 		"ignoreLocalChangesForFile": "git update-index --assume-unchanged file.json",
 		"deleteRemoteBranch": "git push -d origin feature-swag",
-		"submodule": "git submodule add git@..."
+		"submodule": "git submodule add git@...",
+		"cherrypick": "git cherry-pick A..B" //A..B will not get commit A (you would need A~1..B for that)
+	},
+	"notes": {
+		"Compress before encrypting": true,
+		"msgToEml": "python3.6 do.py < in.msg > out.eml",
+		"bash": "#!/usr/bin/env bash"
+	},
+	"gpg": {
+		"encrypt": "gpg --cipher-algo AES256 -c input.txt",
+		"decrypt": "gpg -o output.txt -d input.txt.gpg"
+	},
+	"zip": {
+		"encryptFile": "zip -e output.zip input.txt",
+		"encryptDirectory": "zip -er output.zip path (no /prefix)"
+	},
+	"base64strings": {
+		"encode": "openssl base64 -in input.txt -out output.txt",
+		"decode": "openssl base64 -d -in input.txt -out output.txt"
 	},
 	"apache": {
 		"directory": "/etc/apache2",
