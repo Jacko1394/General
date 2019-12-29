@@ -102,6 +102,7 @@
 	},
 	"nuget": {
 		"add": "nuget sources Add -Name \"Magiq\" -Source \"https://tfs.com/index.json\"",
-		"push": "nuget push -Source \"Magiq_Beta\" -ApiKey abcd123 package.nupkg"
+		"push": "nuget push -Source \"Magiq_Beta\" -ApiKey abcd123 package.nupkg",
+		"clean": "nuget locals all -clear" // -list
 	}
 }
