@@ -2,6 +2,7 @@
 	"git": {
 		"branchFromCommit": "git checkout -b <branchName> <SHA>",
 		"deleteBranch": "git branch -d <branchName>",
+		"deleteRemoteBranch": "git push -d origin feature-swag",
 		"commitOntoNewBranch": "git checkout -b <branchName>",
 		"stashSave": "git stash save 'desc'",
 		"stashLoad": "git stash apply stash@{0}",
@@ -23,7 +24,6 @@
 		],
 		"ignoreAllUntrackedFiles": "git status -uno",
 		"ignoreLocalChangesForFile": "git update-index --assume-unchanged file.json",
-		"deleteRemoteBranch": "git push -d origin feature-swag",
 		"submodule": "git submodule add git@...",
 		"cherrypick": "git cherry-pick A..B" //A..B will not get commit A (you would need A~1..B for that)
 	},
