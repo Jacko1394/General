@@ -12,7 +12,7 @@
 						<Items>
 							<Item Name="Plain Text" Foreground="0x00FFFFFF" Background="0x00312223" BoldFont="No"/>
 							<Item Name="Comment" Foreground="0x0058544D" Background="0x02000000" BoldFont="No"/>
-							<Item Name="Selected Text" Foreground="0x02000000" Background="0x004D25F9" BoldFont="No"/>
+							<Item Name="Selected Text" Foreground="0x02000000" Background="0x00857ED5" BoldFont="No"/>
 							<Item Name="brace matching" Foreground="0x02000000" Background="0x00303030" BoldFont="No"/>
 							<Item Name="Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Number" Foreground="0x00FF81AE" Background="0x02000000" BoldFont="No"/>
@@ -31,8 +31,8 @@
 							<Item Name="Keyword" Foreground="0x00EFC045" Background="0x02000000" BoldFont="No"/>
 							<Item Name="xml doc comment - text" Foreground="0x00969696" Background="0x02000000" BoldFont="No"/>
 							<Item Name="xml doc comment - delimiter,xml doc comment - name" Foreground="0x0058544D" Background="0x02000000" BoldFont="No"/>
-							<Item Name="CurrentLineActiveFormat" Foreground="0x00F2EAEA" Background="0x00FFFFFF" BoldFont="No"/>
-							<Item Name="CurrentLineInactiveFormat" Foreground="0x00EEEEEE" Background="0x00FFFFFF" BoldFont="No"/>
+							<Item Name="CurrentLineActiveFormat" Foreground="0x00F2EAEA" Background="0x00212121" BoldFont="No"/>
+							<Item Name="CurrentLineInactiveFormat" Foreground="0x00EEEEEE" Background="0x00212121" BoldFont="No"/>
 							<Item Name="CSS Comment" Foreground="0x0058544D" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CSS Keyword" Foreground="0x004D25F9" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CSS Property Name" Foreground="0x0009F1B5" Background="0x02000000" BoldFont="No"/>
@@ -76,15 +76,15 @@
 							<Item Name="Inactive Selected Text" Foreground="0x02000000" Background="0x00303030" BoldFont="No"/>
 							<Item Name="outlining.square" Foreground="0x002EE2A6" Background="0x001E1D1B" BoldFont="No"/>
 							<Item Name="outlining.verticalrule" Foreground="0x0058544D" Background="0x02000000" BoldFont="No"/>
-							<Item Name="Syntax Error" Foreground="0x000000FF" Background="0x02000000" BoldFont="No"/>
-							<Item Name="Compiler Error" Foreground="0x000000FF" Background="0x02000000" BoldFont="No"/>
-							<Item Name="Warning" Foreground="0x0000BEEB" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Syntax Error" Foreground="0x00857ED5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Compiler Error" Foreground="0x00857ED5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Warning" Foreground="0x004F88C8" Background="0x02000000" BoldFont="No"/>
 							<Item Name="outlining.collapsehintadornment" Foreground="0x00E8DDD7" Background="0x001E1D1B" BoldFont="No"/>
 							<Item Name="Collapsible Text" Foreground="0x00808080" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Excluded Code" Foreground="0x0058544D" Background="0x02000000" BoldFont="No"/>
 							<Item Name="MarkerFormatDefinition/HighlightedReference,MarkerFormatDefinition/HighlightedDefinition" Foreground="0x02000000" Background="0x00303030" BoldFont="No"/>
-							<Item Name="Breakpoint (Enabled)" Foreground="0x00FFFFFF" Background="0x004D25F9" BoldFont="No"/>
-							<Item Name="Current Statement" Foreground="0x00000000" Background="0x000FE2F5" BoldFont="No"/>
+							<Item Name="Breakpoint (Enabled)" Foreground="0x00FFFFFF" Background="0x00857ED5" BoldFont="No"/>
+							<Item Name="Current Statement" Foreground="0x00000000" Background="0x004F88C8" BoldFont="No"/>
 							<Item Name="CppEnumSemanticTokenFormat" Foreground="0x004F4F2F" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CppMemberFieldSemanticTokenFormat" Foreground="0x00000000" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CppFunctionSemanticTokenFormat" Foreground="0x00000000" Background="0x02000000" BoldFont="No"/>
