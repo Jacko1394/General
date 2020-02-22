@@ -26,7 +26,8 @@
 		"ignoreLocalChangesForFile": "git update-index --assume-unchanged file.json",
 		"submodule": "git submodule add git@...",
 		"cherrypick": "git cherry-pick A..B", //A..B will not get commit A (you would need A~1..B for that)
-		"acceptTheirs": "git checkout --theirs ." // -ours
+		"acceptTheirs": "git checkout --theirs .", // -ours
+		"housekeeping": "git gc --aggressive"
 	},
 	"notes": {
 		"Compress before encrypting": true,
