@@ -79,10 +79,6 @@
 	"dotnet": {
 		"location": "/usr/local/share/dotnet/sdk/2.2.105"
 	},
-	"magiq": {
-		"cust0": "ssh -p 228 jack.della@cust0.intx.magiqdev.cloud",
-		"demo": "ssh -p 222 t1adm@clouddemonstration-lb.intx.magiqcloud.com"
-	},
 	"docker": {
 		"general": "docker images / docker ps",
 		"deleteImage": "docker image rm e653a29f80f7",
