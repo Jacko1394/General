@@ -104,3 +104,5 @@
 		"clean": "nuget locals all -clear" // -list
 	}
 }
+
+// find ./ -iname '*.csproj' -type f -exec bash -c 'expand -t 4 "$0" | sponge "$0"' {} \;
