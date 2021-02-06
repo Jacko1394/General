@@ -111,6 +111,9 @@
 
 // docker
 
+// update all images
+// docker images |grep -v REPOSITORY|awk '{print $1}'|xargs -L1 docker pull
+
 // removecontainers() {
 //     docker stop $(docker ps -aq)
 //     docker rm $(docker ps -aq)
