@@ -9,7 +9,13 @@ Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -Skip
 set-executionpolicy remotesigned
 Set-Service ssh-agent -StartupType Automatic
 
-Install Font Cascadia Code PL
+[Install Font Cascadia Code PL]
+    "defaults":
+    {
+        "fontFace": "Cascadia Mono PL",
+        "backgroundImage": "C:/Users/jd/Pictures/win10unicorn.jpg",
+        "backgroundImageOpacity": 0.3
+    },
 
 [code $PROFILE]
 Import-Module posh-git
