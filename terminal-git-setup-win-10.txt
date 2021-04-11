@@ -1,0 +1,22 @@
+
+[Microsoft Store]
+Install Terminal
+
+Install-Module posh-git -Scope CurrentUser
+Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+
+[Run as Administrator]
+set-executionpolicy remotesigned
+Set-Service ssh-agent -StartupType Automatic
+
+Install Font Cascadia Code PL
+
+[code $PROFILE]
+Import-Module posh-git
+Set-PoshPrompt paradox
+Set-PSReadlineKeyHandler -Key Tab -Function Complete
+
+[ssh]
+ssh-agent -s
+ssh-add .ssh\id_rsa
+git config --global core.sshCommand (get-command ssh).Source.Replace('\','/')
