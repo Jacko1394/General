@@ -2,8 +2,9 @@
 [Microsoft Store]
 Install Terminal
 
+Install-Module -Name PSReadLine -Scope CurrentUser -Force -SkipPublisherCheck
 Install-Module posh-git -Scope CurrentUser
-Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+Install-Module oh-my-posh -Scope CurrentUser
 
 [Run as Administrator]
 set-executionpolicy remotesigned
@@ -19,6 +20,7 @@ Set-Service ssh-agent -StartupType Automatic
 
 [code $PROFILE]
 Import-Module posh-git
+Import-Module oh-my-posh
 Set-PoshPrompt paradox
 Set-PSReadlineKeyHandler -Key Tab -Function Complete
 
@@ -26,3 +28,6 @@ Set-PSReadlineKeyHandler -Key Tab -Function Complete
 ssh-agent -s
 ssh-add .ssh\id_rsa
 git config --global core.sshCommand (get-command ssh).Source.Replace('\','/')
+
+[wsl]
+https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps
