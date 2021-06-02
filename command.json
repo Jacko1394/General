@@ -27,7 +27,8 @@
 		"submodule": "git submodule add git@...",
 		"cherrypick": "git cherry-pick A..B", //A..B will not get commit A (you would need A~1..B for that)
 		"acceptTheirs": "git checkout --theirs .", // -ours
-		"housekeeping": "git gc --aggressive"
+		"housekeeping": "git gc --aggressive",
+		"searchHistory": "git log --all --grep='nlog'"
 	},
 	"notes": {
 		"Compress before encrypting": true,
