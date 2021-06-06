@@ -90,7 +90,9 @@
 		"commit": "docker commit -m inforouter bfec5cae86c8 inforouter:latest",
 		"cp": "docker cp foo.txt mycontainer:/foo.txt",
 		"clean": "docker system prune --volumes -f",
-		"export": " docker save -o engagement engagement:latest"
+		"export": "docker save -o engagement engagement:latest",
+		"compress": "docker save myimage:latest | gzip > myimage_latest.tar.gz",
+		"import": "docker load < busybox.tar.gz"
 	},
 	"mongo": {
 		"startMongoDaemon": "mongod --dbpath /usr/local/var/mongodb",
