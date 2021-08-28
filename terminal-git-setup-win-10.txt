@@ -15,6 +15,9 @@ Import-Module posh-git
 Import-Module oh-my-posh
 Set-PoshPrompt paradox
 Set-PSReadlineKeyHandler -Key Tab -Function Complete
+function nugetupdate {
+    dotnet 'C:\Users\jack.della\bin\nugetupdate\Jacko1394.NugetUpdater.dll'
+}
 
 [Run as Administrator]
 set-executionpolicy remotesigned
