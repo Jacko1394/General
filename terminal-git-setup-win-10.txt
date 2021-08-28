@@ -1,22 +1,14 @@
 
 [Microsoft Store]
 Install Terminal
+https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows
 
 Install-Module -Name PSReadLine -Scope CurrentUser -Force -SkipPublisherCheck
 Install-Module posh-git -Scope CurrentUser
 Install-Module oh-my-posh -Scope CurrentUser
 
-[Run as Administrator]
-set-executionpolicy remotesigned
-Set-Service ssh-agent -StartupType Automatic
-
+[Copy .ssh to home]
 [Install Font Cascadia Code PL]
-    "defaults":
-    {
-        "fontFace": "Cascadia Mono PL",
-        "backgroundImage": "C:/Users/jd/Pictures/win10unicorn.jpg",
-        "backgroundImageOpacity": 0.3
-    },
 
 [code $PROFILE]
 Import-Module posh-git
@@ -24,7 +16,11 @@ Import-Module oh-my-posh
 Set-PoshPrompt paradox
 Set-PSReadlineKeyHandler -Key Tab -Function Complete
 
-[ssh]
+[Run as Administrator]
+set-executionpolicy remotesigned
+Set-Service ssh-agent -StartupType Automatic
+
+[New Terminal window]
 ssh-agent -s
 ssh-add .ssh\id_rsa
 git config --global core.sshCommand (get-command ssh).Source.Replace('\','/')
