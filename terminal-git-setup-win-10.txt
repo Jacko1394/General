@@ -20,7 +20,7 @@ function nugetupdate {
 }
 
 [Run as Administrator]
-set-executionpolicy remotesigned
+Set-ExecutionPolicy RemoteSigned
 Set-Service ssh-agent -StartupType Automatic
 
 [New Terminal window]
