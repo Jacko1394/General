@@ -1,4 +1,12 @@
 
+[2023]
+https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal
+winget install JanDeDobbeleer.OhMyPosh
+[code $PROFILE]
+oh-my-posh --init --shell pwsh --config ~/jandedobbeleer.omp.json | Invoke-Expression
+
+
+
 [Microsoft Store]
 Install Terminal
 https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows
