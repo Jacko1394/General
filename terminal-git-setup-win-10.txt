@@ -2,6 +2,7 @@
 [2023]
 https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal
 winget install JanDeDobbeleer.OhMyPosh
+# winget upgrade JanDeDobbeleer.OhMyPosh -s winget
 [code $PROFILE]
 oh-my-posh --init --shell pwsh --config ~/jandedobbeleer.omp.json | Invoke-Expression
 
