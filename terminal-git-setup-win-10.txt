@@ -2,42 +2,19 @@
 [2023]
 https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal
 winget install JanDeDobbeleer.OhMyPosh
+https://github.com/ryanoasis/nerd-fonts/releases
 # winget upgrade JanDeDobbeleer.OhMyPosh -s winget
+
 [code $PROFILE]
 oh-my-posh --init --shell pwsh --config ~/jandedobbeleer.omp.json | Invoke-Expression
-
-
-
-[Microsoft Store]
-Install Terminal
-https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows
-
-Install-Module -Name PSReadLine -Scope CurrentUser -Force -SkipPublisherCheck
-Install-Module posh-git -Scope CurrentUser
-Install-Module oh-my-posh -Scope CurrentUser
-
-[Copy .ssh to home]
-[Install Font Cascadia Code PL]
-
-[code $PROFILE]
-Import-Module posh-git
-Import-Module oh-my-posh
-Set-PoshPrompt paradox
-Set-PSReadlineKeyHandler -Key Tab -Function Complete
 function nugetupdate {
-    dotnet 'C:\Users\jack.della\bin\nugetupdate\Jacko1394.NugetUpdater.dll'
+    dotnet 'C:\Users\jacko\bin\nugetupdate\Jacko1394.NugetUpdater.dll'
 }
 
+[New Terminal window]
 [Run as Administrator]
 Set-ExecutionPolicy RemoteSigned
-Set-Service ssh-agent -StartupType Automatic
-
-[New Terminal window]
-ssh-agent -s
-Get-Service ssh-agent
-Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+Get-Service -Name ssh-agent | Set-Service -StartupType Automatic
 ssh-add .ssh\id_rsa
 git config --global core.sshCommand (get-command ssh).Source.Replace('\','/')
-
-[wsl]
-https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps
+ssh-agent -s
