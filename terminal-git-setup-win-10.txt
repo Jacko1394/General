@@ -34,6 +34,8 @@ Set-Service ssh-agent -StartupType Automatic
 
 [New Terminal window]
 ssh-agent -s
+Get-Service ssh-agent
+Get-Service -Name ssh-agent | Set-Service -StartupType Manual
 ssh-add .ssh\id_rsa
 git config --global core.sshCommand (get-command ssh).Source.Replace('\','/')
 
