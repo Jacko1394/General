@@ -17,4 +17,6 @@ Set-ExecutionPolicy RemoteSigned
 Get-Service -Name ssh-agent | Set-Service -StartupType Automatic
 ssh-agent -s
 ssh-add .ssh\id_rsa
+
+# macOS
 git config --global core.sshCommand (get-command ssh).Source.Replace('\','/')
