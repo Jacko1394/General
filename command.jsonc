@@ -1,128 +1,125 @@
 {
-	"git": {
-		"branchFromCommit": "git checkout -b <branchName> <SHA>",
-		"deleteBranch": "git branch -d <branchName>",
-		"deleteRemoteBranch": "git push -d origin feature-swag",
-		"commitOntoNewBranch": "git checkout -b <branchName>",
-		"stashSave": "git stash save 'desc'",
-		"stashLoad": "git stash apply stash@{0}",
-		"stashExtra": "git stash list, git stash drop/clear", // drop= rm last one or specify, clear= all
-		"undoCommits": "git reset --soft HEAD~2", // soft=remember changes to recommit, ~<number of commits>
-		"mergeToCommit": "git merge <SHA>",
-		/* (on branch development) $ git merge master
+    "git": {
+        "branchFromCommit": "git checkout -b <branchName> <SHA>",
+        "deleteBranch": "git branch -d <branchName>",
+        "deleteRemoteBranch": "git push -d origin feature-swag",
+        "commitOntoNewBranch": "git checkout -b <branchName>",
+        "stashSave": "git stash save 'desc'",
+        "stashLoad": "git stash apply stash@{0}",
+        "stashExtra": "git stash list, git stash drop/clear", // drop= rm last one or specify, clear= all
+        "undoCommits": "git reset --soft HEAD~2", // soft=remember changes to recommit, ~<number of commits>
+        "mergeToCommit": "git merge <SHA>",
+        /* (on branch development) $ git merge master
 			(resolve any merge conflicts if there are any) git checkout master
 			git merge development (there won't be any conflicts now) */
-		"viewUrl": [
-			"git remote -v",
-			"git config --get remote.origin.url",
-			"git remote show origin"
-		],
-		"changeRemoteUrl": [
-			"git remote set-url origin https://magiqtfs.blah.com", // git remote add origin
-			"git push -u origin --all", // git push -u origin <branch>
-			"git push --mirror"
-		],
-		"ignoreAllUntrackedFiles": "git status -uno",
-		"ignoreLocalChangesForFile": "git update-index --assume-unchanged file.json",
-		"submodule": "git submodule add git@...",
-		"cherrypick": "git cherry-pick A..B", //A..B will not get commit A (you would need A~1..B for that)
-		"acceptTheirs": "git checkout --theirs .", // -ours
-		"housekeeping": "git gc --aggressive",
-		"searchHistory": "git log --all --grep='nlog'"
-	},
-	"notes": {
-		"Compress before encrypting": true,
-		"msgToEml": "python3.6 do.py < in.msg > out.eml",
-		"bash": "#!/usr/bin/env bash"
-	},
-	"gpg": {
-		"encrypt": "gpg --cipher-algo AES256 -c input.txt",
-		"decrypt": "gpg -o output.txt -d input.txt.gpg"
-	},
-	"zip": {
-		"encryptFile": "zip -e output.zip input.txt",
-		"encryptDirectory": "zip -er output.zip path (no /prefix)"
-	},
-	"base64strings": {
-		"encode": "openssl base64 -in input.txt -out output.txt",
-		"decode": "openssl base64 -d -in input.txt -out output.txt"
-	},
-	"apache": {
-		"directory": "/etc/apache2",
-		"config": "httpd.conf",
-		"run": "sudo apachectl start",
-		"createPassword": "sudo htpasswd -c /etc/apache2/.htpasswd jacko1394",
-		"https": "certbot.eff.org"
-	},
-	"linux": {
-		"dd": "dd if=/dev/sda of=/path/backup.img bs=64K (clone drive)",
-		"disableGnomeStartup": "sudo nano /etc/default/grub && sudo update-grub) // 0 gui 3 cmd",
-		"ngrokSSH": "ssh xxx@0.tcp.ngrok.io -p12345",
-		"Disk fullness": "df -h", // lists drive space
-		"Directory usage": "du -hs ./dir", // shows folder size
-		"rsync": "rsync -avh /source/path /destination/targetFolder (a-archive, v-verbose, h-readable, dont include path in dest)"
-	},
-	"mac": {
-		"python": {
-			"2.7": "/System/Library/Frameworks/",
-			"3.6": "/Library/Frameworks/",
-			"packages": "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages",
-			"sudo": "os.system('echo %s|sudo -S %s' % (pwd, 'reboot now'))",
-			"subprocess": "temp = subprocess.check_output('ls -la', shell=True)",
-			"files": "f1 = open('/Users/file.json', 'r+')",
-			"json": "data = json.load(f1)",
-			"forEachLineOfText": "for line in text.splitlines():" // for str, if file use readlines()
-		},
-		"iCloud path": "/Users/jd/Library/Mobile Documents/",
-		"newAppInstance": "open -n -a 'Visual Studio'",
-		"showHiddenFiles": "CMD + SHIFT + ."
-	},
-	"dotnet": {
-		"location": "/usr/local/share/dotnet/sdk/2.2.105"
-	},
-	"docker": {
-		"general": "docker images / docker ps",
-		"deleteImage": "docker image rm e653a29f80f7",
-		"start": "docker run -it ubuntu",
-		"attach": "docker attach b25469cb90d9",
-		"run": "docker run -v /Users/jd/Documents:/Documents -i -e ACCEPT_EULA=Y -e SA_PASSWORD=pwd -p 1433:1433 -d microsoft/mssql-server-linux",
-		"exec": "docker exec -it bfec5cae86c8 ls -la",
-		"commit": "docker commit -m inforouter bfec5cae86c8 inforouter:latest",
-		"cp": "docker cp foo.txt mycontainer:/foo.txt",
-		"clean": "docker system prune --volumes -f",
-		"export": "docker save -o engagement engagement:latest",
-		"compress": "docker save myimage:latest | gzip > myimage_latest.tar.gz",
-		"import": "docker load < busybox.tar.gz",
-		"updateAll": "docker images | grep -v REPOSITORY | awk '{print $1}' | xargs -L1 docker pull"
-	},
-	"mongo": {
-		"startMongoDaemon": "mongod --dbpath /usr/local/var/mongodb",
-		"shell": "mongo",
-		"listDbs": "show dbs",
-		"createSelectDb": "use parking",
-		"collections": "show collections",
-		"countDocuments": "db.collectionName.count()"
-	},
-	"nuget": {
-		"add": "nuget sources Add -Name \"Magiq\" -Source \"https://tfs.com/index.json\"",
-		"push": "nuget push -Source \"Magiq_Beta\" -ApiKey abcd123 package.nupkg",
-		"clean": "nuget locals all -clear" // -list
-	},
-	"ffmpeg": {
-		"gif": "ffmpeg -i 'file.mp4' -vf \"fps=10,scale=720:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse\" -loop 0 output.gif"
-	}
+        "viewUrl": [
+            "git remote -v",
+            "git config --get remote.origin.url",
+            "git remote show origin"
+        ],
+        "changeRemoteUrl": [
+            "git remote set-url origin https://magiqtfs.blah.com", // git remote add origin
+            "git push -u origin --all", // git push -u origin <branch>
+            "git push --mirror"
+        ],
+        "ignoreAllUntrackedFiles": "git status -uno",
+        "ignoreLocalChangesForFile": "git update-index --assume-unchanged file.json",
+        "submodule": "git submodule add git@...",
+        "cherrypick": "git cherry-pick A..B", //A..B will not get commit A (you would need A~1..B for that)
+        "acceptTheirs": "git checkout --theirs .", // -ours
+        "housekeeping": "git gc --aggressive",
+        "searchHistory": "git log --all --grep='nlog'"
+    },
+    "notes": {
+        "Compress before encrypting": true,
+        "msgToEml": "python3.6 do.py < in.msg > out.eml",
+        "bash": "#!/usr/bin/env bash"
+    },
+    "gpg": {
+        "encrypt": "gpg --cipher-algo AES256 -c input.txt",
+        "decrypt": "gpg -o output.txt -d input.txt.gpg"
+    },
+    "zip": {
+        "encryptFile": "zip -e output.zip input.txt",
+        "encryptDirectory": "zip -er output.zip path (no /prefix)"
+    },
+    "base64strings": {
+        "encode": "openssl base64 -in input.txt -out output.txt",
+        "decode": "openssl base64 -d -in input.txt -out output.txt"
+    },
+    "apache": {
+        "directory": "/etc/apache2",
+        "config": "httpd.conf",
+        "run": "sudo apachectl start",
+        "createPassword": "sudo htpasswd -c /etc/apache2/.htpasswd jacko1394",
+        "https": "certbot.eff.org"
+    },
+    "linux": {
+        "dd": "dd if=/dev/sda of=/path/backup.img bs=64K (clone drive)",
+        "disableGnomeStartup": "sudo nano /etc/default/grub && sudo update-grub) // 0 gui 3 cmd",
+        "ngrokSSH": "ssh xxx@0.tcp.ngrok.io -p12345",
+        "Disk fullness": "df -h", // lists drive space
+        "Directory usage": "du -hs ./dir", // shows folder size
+        "rsync": "rsync -avh /source/path /destination/targetFolder (a-archive, v-verbose, h-readable, dont include path in dest)"
+    },
+    "mac": {
+        "python": {
+            "2.7": "/System/Library/Frameworks/",
+            "3.6": "/Library/Frameworks/",
+            "packages": "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages",
+            "sudo": "os.system('echo %s|sudo -S %s' % (pwd, 'reboot now'))",
+            "subprocess": "temp = subprocess.check_output('ls -la', shell=True)",
+            "files": "f1 = open('/Users/file.json', 'r+')",
+            "json": "data = json.load(f1)",
+            "forEachLineOfText": "for line in text.splitlines():" // for str, if file use readlines()
+        },
+        "iCloud path": "/Users/jd/Library/Mobile Documents/",
+        "newAppInstance": "open -n -a 'Visual Studio'",
+        "showHiddenFiles": "CMD + SHIFT + ."
+    },
+    "dotnet": {
+        "location": "/usr/local/share/dotnet/sdk/2.2.105"
+    },
+    "docker": {
+        "general": "docker images / docker ps",
+        "deleteImage": "docker image rm e653a29f80f7",
+        "start": "docker run -it ubuntu",
+        "attach": "docker attach b25469cb90d9",
+        "run": "docker run -v /Users/jd/Documents:/Documents -i -e ACCEPT_EULA=Y -e SA_PASSWORD=pwd -p 1433:1433 -d microsoft/mssql-server-linux",
+        "exec": "docker exec -it bfec5cae86c8 ls -la",
+        "commit": "docker commit -m inforouter bfec5cae86c8 inforouter:latest",
+        "cp": "docker cp foo.txt mycontainer:/foo.txt",
+        "clean": "docker system prune --volumes -f",
+        "export": "docker save -o engagement engagement:latest",
+        "compress": "docker save myimage:latest | gzip > myimage_latest.tar.gz",
+        "import": "docker load < busybox.tar.gz",
+        "updateAll": "docker images | grep -v REPOSITORY | awk '{print $1}' | xargs -L1 docker pull",
+        "restart": "docker update --restart=unless-stopped twingate-faithful-spaniel" // always
+    },
+    "mongo": {
+        "startMongoDaemon": "mongod --dbpath /usr/local/var/mongodb",
+        "shell": "mongo",
+        "listDbs": "show dbs",
+        "createSelectDb": "use parking",
+        "collections": "show collections",
+        "countDocuments": "db.collectionName.count()"
+    },
+    "nuget": {
+        "add": "nuget sources Add -Name \"Magiq\" -Source \"https://tfs.com/index.json\"",
+        "push": "nuget push -Source \"Magiq_Beta\" -ApiKey abcd123 package.nupkg",
+        "clean": "nuget locals all -clear" // -list
+    },
+    "ffmpeg": {
+        "gif": "ffmpeg -i 'file.mp4' -vf \"fps=10,scale=720:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse\" -loop 0 output.gif"
+    }
 }
-
 // tabs to spaces
 // find ./ -iname '*.csproj' -type f -exec bash -c 'expand -t 4 "$0" | sponge "$0"' {} \;
-
 // docker
-
 // removecontainers() {
 //     docker stop $(docker ps -aq)
 //     docker rm $(docker ps -aq)
 // }
-
 // armageddon() {
 //     removecontainers
 //     docker network prune -f
